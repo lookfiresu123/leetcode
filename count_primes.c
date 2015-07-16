@@ -26,7 +26,7 @@ int countPrimes(int n) {
 		// clock_t end_time=clock();
 		// clock_t run_time_1 = end_time - start_time;
 		// start_time = clock();
-		int count_temp = m; 
+		int count_temp = m;
 		while(j < count_temp){
 			// if(store[j] != 0){
 			// 	for(i = j;i <= n-3;i++){
@@ -74,7 +74,7 @@ int countPrimes(int n) {
 		//printf("%d\n",count);
 		free(store);
 	}
-	return count_result;  
+	return count_result;
 }
 
 int main(void){
