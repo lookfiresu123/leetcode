@@ -21,26 +21,31 @@ bool determine(struct ListNode** head) {
     struct ListNode *mid = *head;
     struct ListNode *mid_prev = *head;
     int sum = 0;
+    /* if the head is NULL, then return true  */
     if(!current)
 	    return true;
+    /* look up for the mid node of the list  */
     while(current){
         sum++;
         prev = current;
         current = current->next;
         if(current){
-	    mid_prev = mid;
+	        mid_prev = mid;
             mid = mid->next;
             sum++;
             prev = current;
             current = current->next;
         }
     }
+    /* set the tail of the second list and change the mid node when the sum of node is even number
+     * the head of second list is the tail of the list, and the head of first list is the head of the list
+     * */
     if(sum % 2 == 0)
-	mid = mid_prev;
+	    mid = mid_prev;
     second_tail = mid->next;
     tail = prev;
 
-    //exchange the second list
+    /* reverse the second list */
     second_head = tail;
     current = second_tail;
     prev = mid;
@@ -53,6 +58,7 @@ bool determine(struct ListNode** head) {
     }
     mid->next = NULL;
     //second_head = prev;
+    /* compare the first list and the second list */
     for(second_current = second_head;second_current != mid;second_current = second_current->next){
         if(second_current->val != first_current->val){
             flag = false;
