@@ -85,12 +85,14 @@ main	length_of_last_word.c	/^int main(void){$/;"	f
 main	longest_common_prefix.c	/^int main(void){$/;"	f
 main	lowest_common_ancestor.c	/^int main(){$/;"	f
 main	majority_element.c	/^int main(void){$/;"	f
+main	min_stack.c	/^int main(void) {$/;"	f
 main	numbers_of_1_bits.c	/^int main(void){$/;"	f
 main	palindrome_linked_list.c	/^int main(){$/;"	f
 main	palindrome_number.c	/^int main(){$/;"	f
 main	plus_one.c	/^int main(void) {$/;"	f
 main	power_of_two.c	/^int main(void){$/;"	f
 main	rectangle_area.c	/^int main(){$/;"	f
+main	remove_element.c	/^int main(void) {$/;"	f
 main	remove_linked_list_elements.c	/^int main(void){$/;"	f
 main	remove_nth_node_end_list.c	/^int main(void){$/;"	f
 main	reverse_bits.c	/^int main(void){$/;"	f
@@ -122,9 +124,11 @@ next	remove_nth_node_end_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNo
 next	reverse_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	sort_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 plusOne	plus_one.c	/^int* plusOne(int* digits, int digitsSize, int* returnSize) {$/;"	f
+pop	min_stack.c	/^void pop(MinStack *stack) {$/;"	f
 pop	valid_parentheses.c	/^STACK_TYPE pop(void) {$/;"	f
-push	min_stack.c	/^void push(MinStack *stack, int element, int top_element) {$/;"	f
+push	min_stack.c	/^void push(MinStack *stack, int element) {$/;"	f
 push	valid_parentheses.c	/^void push(STACK_TYPE new_element) {$/;"	f
+removeElement	remove_element.c	/^int removeElement(int* nums, int numsSize, int val) {$/;"	f
 removeElements	remove_linked_list_elements.c	/^struct ListNode* removeElements(struct ListNode* head, int val) {$/;"	f
 removeNthFromEnd	remove_nth_node_end_list.c	/^struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {$/;"	f
 replace	reverse_linked_list.c	/^void replace(struct ListNode* current){$/;"	f
@@ -147,6 +151,7 @@ store_next	reverse_linked_list.c	/^int store_next;$/;"	v
 store_prev	reverse_linked_list.c	/^int store_prev;$/;"	v
 summaryRanges	summary_ranges.c	/^char** summaryRanges(int* nums, int numsSize, int* returnSize) {$/;"	f
 titleToNumber	excel_sheet_column_number.c	/^int titleToNumber(char* s) {$/;"	f
+top	min_stack.c	/^int top(MinStack *stack) {$/;"	f
 top_element	min_stack.c	/^    int top_element;$/;"	m	struct:__anon1	file:
 top_element	valid_parentheses.c	/^static int top_element = -1;\/\/the top point of the stack$/;"	v	file:
 trailingZeroes	factorial_trailing_zeroes.c	/^int trailingZeroes(int n) {$/;"	f
