@@ -4,31 +4,47 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY_SIZE	symmetric_tree.c	16;"	d	file:
+Del_Node	remove_duplicates_from_sorted_list.c	/^void Del_Node (struct ListNode **current) {$/;"	f
 FrontBackSplit	sort_list.c	/^void FrontBackSplit(struct ListNode* source,  struct ListNode** frontRef, struct ListNode** backRef){$/;"	f
+Insert_List	remove_duplicates_from_sorted_list.c	/^void Insert_List (struct ListNode **head_ptr, int value) {$/;"	f
+IsExisted	remove_duplicates_from_sorted_list.c	/^bool IsExisted (int value) {$/;"	f
 LIMIT	reverse_integer.c	5;"	d	file:
 LIMIT_min	reverse_integer.c	6;"	d	file:
 ListNode	delete_node_linked_list.c	/^struct ListNode {$/;"	s	file:
 ListNode	intersection_of_two_links.c	/^struct ListNode {$/;"	s	file:
+ListNode	merge_two_sorted_lists.c	/^struct ListNode {$/;"	s	file:
 ListNode	palindrome_linked_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	remove_duplicates_from_sorted_list.c	/^struct ListNode {$/;"	s	file:
 ListNode	remove_linked_list_elements.c	/^struct ListNode{$/;"	s	file:
 ListNode	remove_nth_node_end_list.c	/^struct ListNode {$/;"	s	file:
 ListNode	reverse_linked_list.c	/^struct ListNode {$/;"	s	file:
 ListNode	sort_list.c	/^struct ListNode {$/;"	s	file:
 MinStack	min_stack.c	/^} MinStack;$/;"	t	typeref:struct:__anon1	file:
+N	remove_duplicates_from_sorted_list.c	28;"	d	file:
+QUEUE_SIZE	symmetric_tree.c	15;"	d	file:
+QUEUE_TYPE	symmetric_tree.c	14;"	d	file:
 SIZE	plus_one.c	11;"	d	file:
 STACK_SIZE	valid_parentheses.c	11;"	d	file:
 STACK_TYPE	valid_parentheses.c	12;"	d	file:
+TreeNode	balanced_binary_tree.c	/^struct TreeNode {$/;"	s	file:
 TreeNode	invert_binary_tree.c	/^struct TreeNode {$/;"	s	file:
 TreeNode	lowest_common_ancestor.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	max_depth_of_binary_tree.c	/^struct TreeNode {$/;"	s	file:
 TreeNode	minimum_depth_of_binary_tree.c	/^struct TreeNode {$/;"	s	file:
 TreeNode	path_sum.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	same_tree.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	symmetric_tree.c	/^struct TreeNode {$/;"	s	file:
 adapt_for_digits	compare_version_numbers.c	/^void adapt_for_digits(char *str1, char *str2,char *format_version1,char *format_version2){$/;"	f
+addDigits	add_digits.c	/^int addDigits(int num) {$/;"	f
 add_contain_n	compare_version_numbers.c	/^char *add_contain_n(char *str,int n){$/;"	f
 add_digits_n	compare_version_numbers.c	/^char *add_digits_n(char *start_dest,int n){$/;"	f
 add_remain	compare_version_numbers.c	/^char *add_remain(char *start_dest,char *start_source,char *end_source){$/;"	f
 buf_size	summary_ranges.c	10;"	d	file:
 cal_nums_contain	compare_version_numbers.c	/^int cal_nums_contain(char *str){$/;"	f
+clear	symmetric_tree.c	/^void clear (QUEUE_TYPE *buffer, int length) {$/;"	f
 compare	compare_version_numbers.c	/^int compare(char *str1,char *str2){$/;"	f
+compare	symmetric_tree.c	/^bool compare (QUEUE_TYPE *buffer, int count) {$/;"	f
 compareVersion	compare_version_numbers.c	/^int compareVersion(char *version1, char *version2) {$/;"	f
 computeArea	rectangle_area.c	/^int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {$/;"	f
 compute_coverd_rectangle	rectangle_area.c	/^int compute_coverd_rectangle(int first_x_min,int first_y_min,int first_x_max,int first_y_max,$/;"	f
@@ -38,39 +54,57 @@ containsDuplicate	contains_duplicate.c	/^bool containsDuplicate(int* nums, int n
 containsNearbyDuplicate	contains_duplicate_II.c	/^bool containsNearbyDuplicate(int* nums, int numsSize, int k) {$/;"	f
 convert	zigzag_conversion.c	/^char* convert(char* s, int numRows) {$/;"	f
 convertToTitle	excel_sheet_column_title.c	/^char *convertToTitle(int n){$/;"	f
+count	remove_duplicates_from_sorted_list.c	/^static int count = 0;$/;"	v	file:
 countPrimes	count_primes.c	/^int countPrimes(int n) {$/;"	f
 data	min_stack.c	/^    int *data;$/;"	m	struct:__anon1	file:
+deleteDuplicates	remove_duplicates_from_sorted_list.c	/^struct ListNode* deleteDuplicates(struct ListNode* head) {$/;"	f
 deleteNode	delete_node_linked_list.c	/^void deleteNode(struct ListNode* node) {$/;"	f
+delete_queue	symmetric_tree.c	/^QUEUE_TYPE delete_queue (void) {$/;"	f
 delete_zero	happy_number.c	/^int delete_zero(int x){$/;"	f
 determine	palindrome_linked_list.c	/^bool determine(struct ListNode** head) {$/;"	f
 difference	compare_version_numbers.c	7;"	d	file:
 find_nums_between_contains	compare_version_numbers.c	/^int find_nums_between_contains(char *start,char *end){$/;"	f
 find_p_or_q	lowest_common_ancestor.c	/^int find_p_or_q = 0;$/;"	v
+first	symmetric_tree.c	/^QUEUE_TYPE first (void) {$/;"	f
+front	symmetric_tree.c	/^static size_t front = 0;$/;"	v	file:
+getHeight	balanced_binary_tree.c	/^int getHeight(struct TreeNode *root) {$/;"	f
 getIntersectionNode	intersection_of_two_links.c	/^struct ListNode *getIntersectionNode(struct ListNode *headA,struct ListNode *headB) {$/;"	f
 hammingWeight	numbers_of_1_bits.c	/^int hammingWeight(uint32_t n) {$/;"	f
 hasPathSum	path_sum.c	/^bool hasPathSum(struct TreeNode* root, int sum) {$/;"	f
+insert_queue	symmetric_tree.c	/^void insert_queue (QUEUE_TYPE value) {$/;"	f
 invertTree	invert_binary_tree.c	/^struct TreeNode* invertTree(struct TreeNode* root) {$/;"	f
+isAnagram	valid_anagram.c	/^bool isAnagram(char* s, char* t) {$/;"	f
+isBalanced	balanced_binary_tree.c	/^bool isBalanced(struct TreeNode* root) {$/;"	f
 isHappy	happy_number.c	/^bool isHappy(int n) {$/;"	f
 isIsomorphic	isomorphic_strings.c	/^bool isIsomorphic(char* s, char* t) {$/;"	f
 isPalindrome	palindrome_linked_list.c	/^bool isPalindrome(struct ListNode *head) {$/;"	f
 isPalindrome	palindrome_number.c	/^bool isPalindrome(int x) {$/;"	f
 isPowerOfTwo	power_of_two.c	/^bool isPowerOfTwo(int n) {$/;"	f
+isSameTree	same_tree.c	/^bool isSameTree(struct TreeNode* p, struct TreeNode* q) {$/;"	f
+isSymmetric	symmetric_tree.c	/^bool isSymmetric(struct TreeNode* root) {$/;"	f
 isValid	valid_parentheses.c	/^bool isValid(char* s) {$/;"	f
 is_empty	min_stack.c	/^int is_empty(MinStack *stack) {$/;"	f
+is_empty	symmetric_tree.c	/^bool is_empty (void) {$/;"	f
 is_empty	valid_parentheses.c	/^int is_empty(void) {$/;"	f
 is_full	min_stack.c	/^int is_full(MinStack *stack) {$/;"	f
+is_full	symmetric_tree.c	/^bool is_full (void) {$/;"	f
 is_full	valid_parentheses.c	/^int is_full(void) {$/;"	f
 is_pair	valid_parentheses.c	/^int is_pair(STACK_TYPE x,STACK_TYPE y) {$/;"	f
+left	balanced_binary_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 left	invert_binary_tree.c	/^     struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 left	lowest_common_ancestor.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	max_depth_of_binary_tree.c	/^	struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 left	minimum_depth_of_binary_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 left	path_sum.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	same_tree.c	/^	struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	symmetric_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 length	excel_sheet_column_title.c	4;"	d	file:
 lengthOfLastWord	length_of_last_word.c	/^int lengthOfLastWord(char* s) {$/;"	f
 length_ascii	isomorphic_strings.c	6;"	d	file:
 length_version	compare_version_numbers.c	5;"	d	file:
 longestCommonPrefix	longest_common_prefix.c	/^char* longestCommonPrefix(char** strs, int strsSize) {$/;"	f
 lowestCommonAncestor	lowest_common_ancestor.c	/^struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {$/;"	f
+main	balanced_binary_tree.c	/^int main (void) {$/;"	f
 main	compare_version_numbers.c	/^int main(void){$/;"	f
 main	contains_duplicate.c	/^int main(void){$/;"	f
 main	contains_duplicate_II.c	/^int main(void){$/;"	f
@@ -85,13 +119,16 @@ main	length_of_last_word.c	/^int main(void){$/;"	f
 main	longest_common_prefix.c	/^int main(void){$/;"	f
 main	lowest_common_ancestor.c	/^int main(){$/;"	f
 main	majority_element.c	/^int main(void){$/;"	f
+main	merge_two_sorted_lists.c	/^int main (void) {$/;"	f
 main	min_stack.c	/^int main(void) {$/;"	f
+main	move_zeroes.c	/^int main (void) {$/;"	f
 main	numbers_of_1_bits.c	/^int main(void){$/;"	f
 main	palindrome_linked_list.c	/^int main(){$/;"	f
 main	palindrome_number.c	/^int main(){$/;"	f
 main	plus_one.c	/^int main(void) {$/;"	f
 main	power_of_two.c	/^int main(void){$/;"	f
 main	rectangle_area.c	/^int main(){$/;"	f
+main	remove_duplicates_from_sorted_list.c	/^int main (void) {$/;"	f
 main	remove_element.c	/^int main(void) {$/;"	f
 main	remove_linked_list_elements.c	/^int main(void){$/;"	f
 main	remove_nth_node_end_list.c	/^int main(void){$/;"	f
@@ -101,13 +138,17 @@ main	reverse_linked_list.c	/^int main(void){$/;"	f
 main	rotate_array.c	/^int main(void){$/;"	f
 main	sort_list.c	/^int main(void){$/;"	f
 main	summary_ranges.c	/^int main(){$/;"	f
+main	symmetric_tree.c	/^int main (void) {$/;"	f
 main	valid_parentheses.c	/^int main(void) {$/;"	f
 main	zigzag_conversion.c	/^int main(void){$/;"	f
 majorityElement	majority_element.c	/^int majorityElement(int* nums, int numsSize) {$/;"	f
 make_happy	happy_number.c	/^int make_happy(int y){$/;"	f
+max	balanced_binary_tree.c	13;"	d	file:
 max	count_primes.c	6;"	d	file:
 max	happy_number.c	5;"	d	file:
+maxDepth	max_depth_of_binary_tree.c	/^int maxDepth(struct TreeNode* root) {$/;"	f
 maxSize	min_stack.c	/^    int maxSize;$/;"	m	struct:__anon1	file:
+mergeTwoLists	merge_two_sorted_lists.c	/^struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {$/;"	f
 mergesort	sort_list.c	/^void mergesort(struct ListNode** headref) {$/;"	f
 minDepth	minimum_depth_of_binary_tree.c	/^int minDepth(struct TreeNode* root){$/;"	f
 minStackCreate	min_stack.c	/^void minStackCreate(MinStack *stack, int maxSize) {$/;"	f
@@ -116,9 +157,12 @@ minStackGetMin	min_stack.c	/^int minStackGetMin(MinStack *stack) {$/;"	f
 minStackPop	min_stack.c	/^void minStackPop(MinStack *stack) {$/;"	f
 minStackPush	min_stack.c	/^void minStackPush(MinStack *stack, int element) {$/;"	f
 minStackTop	min_stack.c	/^int minStackTop(MinStack *stack) {$/;"	f
+moveZeroes	move_zeroes.c	/^void moveZeroes(int* nums, int numsSize) {$/;"	f
 next	delete_node_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	intersection_of_two_links.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	merge_two_sorted_lists.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	palindrome_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	remove_duplicates_from_sorted_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	remove_linked_list_elements.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	remove_nth_node_end_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
 next	reverse_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
@@ -128,6 +172,8 @@ pop	min_stack.c	/^void pop(MinStack *stack) {$/;"	f
 pop	valid_parentheses.c	/^STACK_TYPE pop(void) {$/;"	f
 push	min_stack.c	/^void push(MinStack *stack, int element) {$/;"	f
 push	valid_parentheses.c	/^void push(STACK_TYPE new_element) {$/;"	f
+queue_array	symmetric_tree.c	/^static QUEUE_TYPE queue_array[ARRAY_SIZE];$/;"	v	file:
+rear	symmetric_tree.c	/^static size_t rear = ARRAY_SIZE - 1;$/;"	v	file:
 removeElement	remove_element.c	/^int removeElement(int* nums, int numsSize, int val) {$/;"	f
 removeElements	remove_linked_list_elements.c	/^struct ListNode* removeElements(struct ListNode* head, int val) {$/;"	f
 removeNthFromEnd	remove_nth_node_end_list.c	/^struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {$/;"	f
@@ -135,10 +181,14 @@ replace	reverse_linked_list.c	/^void replace(struct ListNode* current){$/;"	f
 reverse	reverse_integer.c	/^int reverse(int x) {$/;"	f
 reverseBits	reverse_bits.c	/^uint32_t reverseBits(uint32_t n) {$/;"	f
 reverseList	reverse_linked_list.c	/^struct ListNode* reverseList(struct ListNode* head) {$/;"	f
+right	balanced_binary_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 right	invert_binary_tree.c	/^     struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 right	lowest_common_ancestor.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	max_depth_of_binary_tree.c	/^	struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 right	minimum_depth_of_binary_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 right	path_sum.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	same_tree.c	/^	struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	symmetric_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
 rotate	rotate_array.c	/^void rotate(int* nums, int numsSize, int k) {$/;"	f
 scale	excel_sheet_column_number.c	4;"	d	file:
 scale	excel_sheet_column_title.c	5;"	d	file:
@@ -148,6 +198,7 @@ sortList	sort_list.c	/^struct ListNode* sortList(struct ListNode* head) {$/;"	f
 sortedMerge	sort_list.c	/^struct ListNode *sortedMerge(struct ListNode *a,struct ListNode *b){$/;"	f
 stack	valid_parentheses.c	/^static STACK_TYPE stack[STACK_SIZE];\/\/the array to carry the stack$/;"	v	file:
 store_next	reverse_linked_list.c	/^int store_next;$/;"	v
+store_nums	remove_duplicates_from_sorted_list.c	/^static int store_nums[N];$/;"	v	file:
 store_prev	reverse_linked_list.c	/^int store_prev;$/;"	v
 summaryRanges	summary_ranges.c	/^char** summaryRanges(int* nums, int numsSize, int* returnSize) {$/;"	f
 titleToNumber	excel_sheet_column_number.c	/^int titleToNumber(char* s) {$/;"	f
@@ -155,14 +206,20 @@ top	min_stack.c	/^int top(MinStack *stack) {$/;"	f
 top_element	min_stack.c	/^    int top_element;$/;"	m	struct:__anon1	file:
 top_element	valid_parentheses.c	/^static int top_element = -1;\/\/the top point of the stack$/;"	v	file:
 trailingZeroes	factorial_trailing_zeroes.c	/^int trailingZeroes(int n) {$/;"	f
+val	balanced_binary_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
 val	delete_node_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	intersection_of_two_links.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	invert_binary_tree.c	/^     int val;$/;"	m	struct:TreeNode	file:
 val	lowest_common_ancestor.c	/^    int val;$/;"	m	struct:TreeNode	file:
+val	max_depth_of_binary_tree.c	/^	int val;$/;"	m	struct:TreeNode	file:
+val	merge_two_sorted_lists.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	minimum_depth_of_binary_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
 val	palindrome_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	path_sum.c	/^    int val;$/;"	m	struct:TreeNode	file:
+val	remove_duplicates_from_sorted_list.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	remove_linked_list_elements.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	remove_nth_node_end_list.c	/^    int val;$/;"	m	struct:ListNode	file:
 val	reverse_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	same_tree.c	/^	int val;$/;"	m	struct:TreeNode	file:
 val	sort_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	symmetric_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
