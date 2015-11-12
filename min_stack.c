@@ -86,13 +86,13 @@ void minStackDestroy(MinStack *stack) {
 
 int main(void) {
     MinStack *stack = (MinStack *)malloc(sizeof(MinStack));
-    int maxSize = 5;
+    int maxSize = 1;
     minStackCreate(stack,maxSize);
     minStackPush(stack,-3);
-    minStackPush(stack,7);
-    minStackPush(stack,5);
-    minStackPush(stack,2);
-    minStackPush(stack,4);
+    // minStackPush(stack,7);
+    // minStackPush(stack,5);
+    // minStackPush(stack,2);
+    // minStackPush(stack,4);
     int min_stack = minStackGetMin(stack);
     return min_stack;
 }
