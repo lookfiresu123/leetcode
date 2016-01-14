@@ -1,0 +1,77 @@
+#include <iostream>
+
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+};
+
+class MinStack {
+private:
+    TreeNode *root;
+public:
+    void insert(int x) {
+        // 若x比root->val小，则root下沉
+        if (root->val > x) {
+            TreeNode *new_node = new TreeNode(x);
+            // root下沉
+            if (root->left || root->right) {
+                if (!root->left) {
+                    new_node->right = root->right;
+                    root->right = nullptr;
+                    new_node->left = root;
+                } else if (!root->right) {
+                    new_node->left = root->left;
+                    root->left = nullptr;
+                    new_node->right = root;
+                } else {
+                    if (root->left->val <= root->right->val) {
+                        new_node->left = root->left;
+                        root->left = nullptr;
+                        new_node->right = root;
+                    } else {
+                        new_node->right = root->right;
+                        root->right = nullptr;
+                        new_node->left = root;
+                    }
+                }
+            } else
+                new_node->left = root;
+        } else {
+            // 若x比root->val大或相等，则x下沉
+            if (root->left || root->right) {
+                if (!root->left) {
+                    TreeNode *new_node = new TreeNode(x);
+                    root->left = new_node;
+                }
+                else if (!root->right) {
+                    TreeNode *new_node = new TreeNode(x);
+                    root->right = new_node;
+                }
+                else {
+                    if (root->left->val < root->right->val)
+                }
+            } else {
+                TreeNode *new_node = new TreeNode(x);
+                root->left = new_node;
+            }
+        }
+    }
+
+    void push(int x) {
+        if (!root)
+            root = new TreeNode(x);
+        else
+            insert(x);
+    }
+
+    void pop() {
+    }
+
+    int top() {
+    }
+
+    int getMin() {
+    }
+};
