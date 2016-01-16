@@ -1,41 +1,32 @@
 #include <vector>
 #include <iostream>
-#include <deque>
-#include <iterator>
+#include <cmath>
 
 using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
-
 class Solution {
-private:
-    std::deque<int> dq;     // 用于存储nums，并创建树
-    TreeNode *root;
 public:
-    using pTreeNode = TreeNode *;
-    // 拷贝nums到dq中，并在首部加入元素0
-    void copy(vector<int> &nums) {
-        for (int i : nums)
-            dq.push_back(i);
-        dq.push_front(0);
-    }
-
-    void create_tree(pTreeNode &root, std::deque<int> dq) {
-
-    }
-
     int rob(vector<int> &nums) {
-        copy(nums);
-        create_tree(root, dq);
-        return 0;
+        if (nums.empty()) {
+            return 0;
+        } else {
+            if (nums.size() == 1)
+                return nums[0];
+            else {
+                vector<int> max_money(nums.size());
+                max_money[0] = nums[0];
+                max_money[1] = std::max(max_money[0], nums[1]);
+                for (vector<int>::size_type i = 2 ; i < nums.size() ; ++i)
+                    max_money[i] = std::max(max_money[i-1], max_money[i-2]+nums[i]);
+                return max_money[nums.size() - 1];
+            }
+        }
     }
 };
 
 int main () {
+    vector<int> v = {2,1,1,2};
+    Solution sol;
+    std::cout << sol.rob(v) << std::endl;
     return 0;
 }
