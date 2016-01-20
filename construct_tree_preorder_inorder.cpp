@@ -5,6 +5,7 @@
 #include <cstdio>
 #include <algorithm>
 #include <iostream>
+#include <iterator>
 
 using namespace std;
 
@@ -17,39 +18,43 @@ struct TreeNode {
 
 class Solution {
 public:
-    TreeNode* buildTree(vector<int> &preorder, vector<int>& inorder) {
-        if (preorder.empty() || inorder.empty())
-            return NULL;
-        else {
+    /*
+     * @begin_preorder：前序序列的首迭代器
+     * @end_preorder：前序序列的尾后迭代器
+     * @begin_inorder：中序序列的首迭代器
+     * @end_inorder：中序序列的尾后迭代器
+     */
+    TreeNode *buildTree_helper(vector<int>::iterator begin_preorder, vector<int>::iterator end_preorder,
+                            vector<int>::iterator begin_inorder, vector<int>::iterator end_inorder) {
+            if (begin_preorder == end_preorder || begin_inorder == end_inorder)
+                return NULL;
             // 前序遍历的第一个结点为当前树的根结点
-            int root_val = preorder.front();
+            int root_val = *begin_preorder;
             TreeNode *root = new TreeNode(root_val);
-            // 分别定义左右子树的前序序列和中序序列
-            // 在中序序列中找到根节点的迭代器位置
-            vector<int>::iterator iter = find(inorder.begin(), inorder.end(), root_val);
-            // iter左边的为左子树的中序序列，右边的为右子树的中序序列
-            vector<int> inorder_left(inorder.begin(), iter);    // 构造左子树的中序序列
-            vector<int> inorder_right;
-            if (iter != inorder.end()) {        // 构造右子树的中序序列
-                for (auto it = iter + 1 ; it != inorder.end() ; ++it)
-                    inorder_right.push_back(*it);
-            }
-            // 分别查找并构造左右子树的前序序列
-            vector<int> preorder_left, preorder_right;
-            // 查找并构造左子树的前序序列
-            for (auto it = preorder.begin() + 1 ; it != preorder.end() ; ++it) {
-                if (find(inorder_left.begin(), inorder_left.end(), *it) != inorder_left.end())
-                    preorder_left.push_back(*it);
-            }
-            // 查找并构造右子树的前序序列
-            for (auto it = preorder.begin() + preorder_left.size() + 1 ; it != preorder.end() ; ++it)
-                preorder_right.push_back(*it);
 
+            // 分别查找左右子树的中序序列的边界
+            // 首先在中序序列中找到根节点的迭代器位置
+            vector<int>::iterator iter = find(begin_inorder, end_inorder, root_val);
+            // iter左边的为左子树的中序序列，右边的为右子树的中序序列
+            vector<int>::iterator left_begin_inorder = begin_inorder;       // 左子树的中序序列的首迭代器
+            vector<int>::iterator left_end_inorder = iter;                  // 左子树的中序序列的尾后迭代器
+            vector<int>::iterator right_begin_inorder = iter + 1;           // 右子树的中序序列的首迭代器
+            vector<int>::iterator right_end_inorder = end_inorder;          // 右子树的中序序列的尾后迭代器
+            // 分别查找左右子树的前序序列的边界，根据左右子树的中序序列和前序序列大小相同这一规则可以简单得到
+            vector<int>::iterator left_begin_preorder = begin_preorder + 1;                                             // 左子树的前序序列的首迭代器
+            vector<int>::iterator left_end_preorder = left_begin_preorder + (left_end_inorder - left_begin_inorder);    // 左子树的前序序列的尾后迭代器
+            vector<int>::iterator right_begin_preorder = left_end_preorder;                                             // 右子树的前序序列的首迭代器
+            vector<int>::iterator right_end_preorder = right_begin_preorder + (right_end_inorder - right_begin_inorder);// 右子树的前序序列的尾后迭代器
             // 根据左右子树的前序序列和中序序列，分别构造当前树的左子树和右子树
-            root->left = buildTree(preorder_left, inorder_left);
-            root->right = buildTree(preorder_right, inorder_right);
+            root->left = buildTree_helper(left_begin_preorder, left_end_preorder, left_begin_inorder, left_end_inorder);
+            root->right = buildTree_helper(right_begin_preorder, right_end_preorder, right_begin_inorder, right_end_inorder);
             return root;
-        }
+    }
+
+    TreeNode* buildTree(vector<int> &preorder, vector<int>& inorder) {
+        TreeNode *root = buildTree_helper(preorder.begin(), preorder.end(),
+                                    inorder.begin(), inorder.end());
+        return root;
     }
 };
 
