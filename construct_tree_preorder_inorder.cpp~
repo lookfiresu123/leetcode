@@ -44,7 +44,7 @@ public:
             vector<int>::iterator left_begin_preorder = begin_preorder + 1;                                             // 左子树的前序序列的首迭代器
             vector<int>::iterator left_end_preorder = left_begin_preorder + (left_end_inorder - left_begin_inorder);    // 左子树的前序序列的尾后迭代器
             vector<int>::iterator right_begin_preorder = left_end_preorder;                                             // 右子树的前序序列的首迭代器
-            vector<int>::iterator right_end_preorder = end_preorder;							// 右子树的前序序列的尾后迭代器
+            vector<int>::iterator right_end_preorder = right_begin_preorder + (right_end_inorder - right_begin_inorder);// 右子树的前序序列的尾后迭代器
             // 根据左右子树的前序序列和中序序列，分别构造当前树的左子树和右子树
             root->left = buildTree_helper(left_begin_preorder, left_end_preorder, left_begin_inorder, left_end_inorder);
             root->right = buildTree_helper(right_begin_preorder, right_end_preorder, right_begin_inorder, right_end_inorder);
