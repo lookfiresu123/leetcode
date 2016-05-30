@@ -1,32 +1,27 @@
-#include <vector>
 #include <iostream>
-#include <cmath>
+#include <vector>
 
 using namespace std;
 
 class Solution {
 public:
+    // using dynamic programming
     int rob(vector<int> &nums) {
-        if (nums.empty()) {
-            return 0;
-        } else {
-            if (nums.size() == 1)
-                return nums[0];
-            else {
-                vector<int> max_money(nums.size());
-                max_money[0] = nums[0];
-                max_money[1] = std::max(max_money[0], nums[1]);
-                for (vector<int>::size_type i = 2 ; i < nums.size() ; ++i)
-                    max_money[i] = std::max(max_money[i-1], max_money[i-2]+nums[i]);
-                return max_money[nums.size() - 1];
-            }
+        int n = nums.size() + 2;
+        vector<int> max_pos(n, 0);
+        int tmp1, tmp2;
+        for (int i = 2 ; i < n ; ++i) {
+            tmp1 = max_pos[i-2] + nums[i-2];
+            tmp2 = max_pos[i-1];
+            max_pos[i] = tmp1 > tmp2 ? tmp1 : tmp2;
         }
+        return max_pos[n-1];
     }
 };
 
-int main () {
-    vector<int> v = {2,1,1,2};
+int main() {
+    vector<int> nums = {4,2,3,6,7,1};
     Solution sol;
-    std::cout << sol.rob(v) << std::endl;
+    cout << sol.rob(nums) << endl;
     return 0;
 }
