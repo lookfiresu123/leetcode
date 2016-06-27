@@ -4,545 +4,780 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-BLOCKCOLSIZE	valid_sudoku.c	7;"	d	file:
-BLOCKROWSIZE	valid_sudoku.c	6;"	d	file:
-BSTIterator	binary_search_tree_iterator.cpp	/^    BSTIterator(TreeNode *root) {$/;"	f	class:BSTIterator
-BSTIterator	binary_search_tree_iterator.cpp	/^class BSTIterator {$/;"	c	file:
-BSTIterator_helper	binary_search_tree_iterator.cpp	/^    void BSTIterator_helper(TreeNode *root) {$/;"	f	class:BSTIterator
-Element	word_pattern.cpp	/^    Element(char ch, string &s) : p_char(ch), s_str(s) {}$/;"	f	struct:Element
-Element	word_pattern.cpp	/^struct Element {$/;"	s	file:
-Exception	find_peak_element.cpp	/^class Exception {};$/;"	c	file:
-Exception_1	bigdata_add.cpp	/^class Exception_1 {};$/;"	c	file:
-Exception_2	bigdata_add.cpp	/^class Exception_2 {};$/;"	c	file:
-FrontBackSplit	sort_list.c	/^void FrontBackSplit(struct ListNode* source,  struct ListNode** frontRef, struct ListNode** backRef){$/;"	f
-LIMIT	reverse_integer.c	5;"	d	file:
-LIMIT_min	reverse_integer.c	6;"	d	file:
-ListNode	delete_node_linked_list.c	/^struct ListNode {$/;"	s	file:
-ListNode	intersection_of_two_links.c	/^struct ListNode {$/;"	s	file:
-ListNode	linked_list_cycle.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
-ListNode	linked_list_cycle.cpp	/^struct ListNode {$/;"	s	file:
-ListNode	merge_two_sorted_lists.c	/^struct ListNode {$/;"	s	file:
-ListNode	odd_even_linked_list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
-ListNode	odd_even_linked_list.cpp	/^struct ListNode {$/;"	s	file:
-ListNode	palindrome_linked_list.c	/^struct ListNode {$/;"	s	file:
-ListNode	remove_duplicates_from_sorted_list.c	/^struct ListNode {$/;"	s	file:
-ListNode	remove_linked_list_elements.c	/^struct ListNode{$/;"	s	file:
-ListNode	remove_nth_node_end_list.c	/^struct ListNode {$/;"	s	file:
-ListNode	reverse_linked_list.c	/^struct ListNode {$/;"	s	file:
-ListNode	sort_list.c	/^struct ListNode {$/;"	s	file:
-MinStack	min_stack.cpp	/^    MinStack() {$/;"	f	class:MinStack
-MinStack	min_stack.cpp	/^class MinStack {$/;"	c	file:
-N	string_to_integer.c	6;"	d	file:
-NODE	valid_sudoku.c	/^struct NODE {$/;"	s	file:
-Node	valid_sudoku.c	/^typedef struct NODE Node;$/;"	t	typeref:struct:NODE	file:
-NumArray	range_sum_query.cpp	/^    NumArray(vector<int> &nums) {$/;"	f	class:NumArray
-NumArray	range_sum_query.cpp	/^class NumArray {$/;"	c	file:
-Queue	implement_queue_using_stacks.cpp	/^class Queue {$/;"	c	file:
-SIZE	plus_one.c	11;"	d	file:
-SIZE	valid_sudoku.c	5;"	d	file:
-Solution	best_time_buy_sell_stock_2.cpp	/^class Solution {$/;"	c	file:
-Solution	besttime_buy_sell_cooldown.cpp	/^class Solution {$/;"	c	file:
-Solution	bigdata_add.cpp	/^class Solution {$/;"	c	file:
-Solution	binary_tree_inorder_traversal.cpp	/^class Solution {$/;"	c	file:
-Solution	binary_tree_level_order_traversal.cpp	/^class Solution {$/;"	c	file:
-Solution	binary_tree_level_order_traversal_2.cpp	/^class Solution {$/;"	c	file:
-Solution	binary_tree_paths.cpp	/^class Solution {$/;"	c	file:
-Solution	binary_tree_preorder_traversal.cpp	/^class Solution {$/;"	c	file:
-Solution	binary_tree_right_side_view.cpp	/^class Solution {$/;"	c	file:
-Solution	bulb_switcher.cpp	/^class Solution {$/;"	c	file:
-Solution	bulls_and_cows.cpp	/^class Solution {$/;"	c	file:
-Solution	combination_sum_3.cpp	/^class Solution {$/;"	c	file:
-Solution	combinations.cpp	/^class Solution {$/;"	c	file:
-Solution	construct_tree_postorder_inorder.cpp	/^class Solution {$/;"	c	file:
-Solution	construct_tree_preorder_inorder.cpp	/^class Solution {$/;"	c	file:
-Solution	container_with_most_water.cpp	/^class Solution {$/;"	c	file:
-Solution	contains_duplicate.cpp	/^class Solution {$/;"	c	file:
-Solution	convert_sortedarray_to_binarysearchtree.cpp	/^class Solution {$/;"	c	file:
-Solution	count_and_say.cpp	/^class Solution {$/;"	c	file:
-Solution	counting_bits.cpp	/^class Solution {$/;"	c	file:
-Solution	different_ways_to_add_parentheses.cpp	/^class Solution {$/;"	c	file:
-Solution	find_minimun_rotated_sorted_array.cpp	/^class Solution {$/;"	c	file:
-Solution	find_peak_element.cpp	/^class Solution {$/;"	c	file:
-Solution	first_bad_version.cpp	/^class Solution {$/;"	c	file:
-Solution	generate_parentheses.cpp	/^class Solution {$/;"	c	file:
-Solution	gray_code.cpp	/^class Solution {$/;"	c	file:
-Solution	house_robber.cpp	/^class Solution {$/;"	c	file:
-Solution	is_power_of_three.cpp	/^class Solution {$/;"	c	file:
-Solution	kth_largest_element_in_array.cpp	/^class Solution {$/;"	c	file:
-Solution	kth_smallest_element.cpp	/^class Solution {$/;"	c	file:
-Solution	linked_list_cycle.cpp	/^class Solution {$/;"	c	file:
-Solution	longest_increasing_subsequence.cpp	/^class Solution {$/;"	c	file:
-Solution	lowest_common_ancestor.cpp	/^class Solution {$/;"	c	file:
-Solution	maximum_product_of_word_lengths.cpp	/^class Solution {$/;"	c	file:
-Solution	minimum_path_sum.cpp	/^class Solution {$/;"	c	file:
-Solution	missing_number.cpp	/^class Solution {$/;"	c	file:
-Solution	odd_even_linked_list.cpp	/^class Solution {$/;"	c	file:
-Solution	pascal_triangle.cpp	/^class Solution {$/;"	c	file:
-Solution	pascal_triangle_2.cpp	/^class Solution {$/;"	c	file:
-Solution	perfect_squares.cpp	/^class Solution {$/;"	c	file:
-Solution	permutations.cpp	/^class Solution {$/;"	c	file:
-Solution	populating_next_right_pointers.cpp	/^class Solution {$/;"	c	file:
-Solution	product_except_self.cpp	/^class Solution {$/;"	c	file:
-Solution	remove_duplicates_from_sorted_array_2.cpp	/^class Solution {$/;"	c	file:
-Solution	rotate_image.cpp	/^class Solution {$/;"	c	file:
-Solution	search_2d_matrix.cpp	/^class Solution {$/;"	c	file:
-Solution	search_2d_matrix_2.cpp	/^class Solution {$/;"	c	file:
-Solution	search_insert_position.cpp	/^class Solution {$/;"	c	file:
-Solution	set_matrix_zeroes.cpp	/^class Solution {$/;"	c	file:
-Solution	single_number.cpp	/^class Solution {$/;"	c	file:
-Solution	single_number_2.cpp	/^class Solution {$/;"	c	file:
-Solution	single_number_3.cpp	/^class Solution {$/;"	c	file:
-Solution	spiral_matrix_2.cpp	/^class Solution {$/;"	c	file:
-Solution	strStr.cpp	/^class Solution {$/;"	c	file:
-Solution	sum_root_to_leaf_numbers.cpp	/^class Solution {$/;"	c	file:
-Solution	symmetric_tree.cpp	/^class Solution {$/;"	c	file:
-Solution	two_sum.cpp	/^class Solution {$/;"	c	file:
-Solution	unique_binary_search_trees.cpp	/^class Solution {$/;"	c	file:
-Solution	unique_paths.cpp	/^class Solution {$/;"	c	file:
-Solution	valid_palindrome.cpp	/^class Solution {$/;"	c	file:
-Solution	valid_parentheses.cpp	/^class Solution {$/;"	c	file:
-Solution	word_pattern.cpp	/^class Solution {$/;"	c	file:
-Solution_1	binary_gray_code.cpp	/^class Solution_1 {$/;"	c	file:
-Solution_2	binary_gray_code.cpp	/^class Solution_2 {$/;"	c	file:
-Stack	implement_stacks_using_queue.cpp	/^class Stack {$/;"	c	file:
-TreeLinkNode	populating_next_right_pointers.cpp	/^    TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}$/;"	f	struct:TreeLinkNode
-TreeLinkNode	populating_next_right_pointers.cpp	/^struct TreeLinkNode {$/;"	s	file:
-TreeNode	balanced_binary_tree.c	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_search_tree_iterator.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_search_tree_iterator.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_tree_inorder_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_tree_inorder_traversal.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_tree_level_order_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_tree_level_order_traversal.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_tree_level_order_traversal_2.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_tree_level_order_traversal_2.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_tree_paths.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_tree_paths.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_tree_preorder_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_tree_preorder_traversal.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	binary_tree_right_side_view.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	binary_tree_right_side_view.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	construct_tree_postorder_inorder.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	construct_tree_postorder_inorder.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	construct_tree_preorder_inorder.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	construct_tree_preorder_inorder.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	convert_sortedarray_to_binarysearchtree.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	invert_binary_tree.c	/^struct TreeNode {$/;"	s	file:
-TreeNode	kth_smallest_element.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	kth_smallest_element.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	lowest_common_ancestor.cpp	/^    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}$/;"	f	struct:TreeNode
-TreeNode	lowest_common_ancestor.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	max_depth_of_binary_tree.c	/^struct TreeNode {$/;"	s	file:
-TreeNode	minimum_depth_of_binary_tree.c	/^struct TreeNode {$/;"	s	file:
-TreeNode	path_sum.c	/^struct TreeNode {$/;"	s	file:
-TreeNode	same_tree.c	/^struct TreeNode {$/;"	s	file:
-TreeNode	sum_root_to_leaf_numbers.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
-TreeNode	sum_root_to_leaf_numbers.cpp	/^struct TreeNode {$/;"	s	file:
-TreeNode	symmetric_tree.cpp	/^    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}$/;"	f	struct:TreeNode
-TreeNode	symmetric_tree.cpp	/^struct TreeNode {$/;"	s	file:
-adapt_for_digits	compare_version_numbers.c	/^void adapt_for_digits(char *str1, char *str2,char *format_version1,char *format_version2){$/;"	f
-addBinary	add_binary.c	/^char* addBinary(char* a, char* b) {$/;"	f
-addDigits	add_digits.c	/^int addDigits(int num) {$/;"	f
-add_contain_n	compare_version_numbers.c	/^char *add_contain_n(char *str,int n){$/;"	f
-add_digits	pascal_triangle.cpp	/^    vector<int> add_digits(int level, vector<int> &previous) {$/;"	f	class:Solution
-add_digits_n	compare_version_numbers.c	/^char *add_digits_n(char *start_dest,int n){$/;"	f
-add_remain	compare_version_numbers.c	/^char *add_remain(char *start_dest,char *start_source,char *end_source){$/;"	f
-big_add	bigdata_add.cpp	/^    string big_add(string &str1, string &str2, int ary) {$/;"	f	class:Solution
-binaryTreePaths	binary_tree_paths.cpp	/^    vector<string> binaryTreePaths(TreeNode* root) {$/;"	f	class:Solution
-binary_gray_code	binary_gray_code.cpp	/^    vector<vector<int>> binary_gray_code(int n) {$/;"	f	class:Solution_1
-binary_gray_code	binary_gray_code.cpp	/^    vector<vector<int>> binary_gray_code(int n) {$/;"	f	class:Solution_2
-buf_size	summary_ranges.c	10;"	d	file:
-buildTree	construct_tree_postorder_inorder.cpp	/^    TreeNode* buildTree(vector<int> &inorder, vector<int>& postorder) {$/;"	f	class:Solution
-buildTree	construct_tree_preorder_inorder.cpp	/^    TreeNode* buildTree(vector<int> &preorder, vector<int>& inorder) {$/;"	f	class:Solution
-buildTree_helper	construct_tree_postorder_inorder.cpp	/^    TreeNode *buildTree_helper(vector<int>::iterator begin_postorder, vector<int>::iterator end_postorder,$/;"	f	class:Solution
-buildTree_helper	construct_tree_preorder_inorder.cpp	/^    TreeNode *buildTree_helper(vector<int>::iterator begin_preorder, vector<int>::iterator end_preorder,$/;"	f	class:Solution
-bulbSwitch	bulb_switcher.cpp	/^    int bulbSwitch(int n) {$/;"	f	class:Solution
-cal_nums_contain	compare_version_numbers.c	/^int cal_nums_contain(char *str){$/;"	f
-check	binary_gray_code.cpp	/^bool check(vector<vector<int>> &ret) {$/;"	f
-climbStairs	climbing_stairs.c	/^int climbStairs (int n) {$/;"	f
-clone	gray_code.cpp	/^    void clone(vector<int> &result, int product) {$/;"	f	class:Solution
-combinationSum3	combination_sum_3.cpp	/^    vector<vector<int>> combinationSum3(int k, int n) {$/;"	f	class:Solution
-combinationSum3_helper	combination_sum_3.cpp	/^    void combinationSum3_helper(vector<vector<int>> &ret, vector<int> temp, int n, int k) {$/;"	f	class:Solution
-combine	combinations.cpp	/^    vector<vector<int>> combine(int n, int k) {$/;"	f	class:Solution
-combine_helper	combinations.cpp	/^    void combine_helper(vector<vector<int>> &ret, vector<int> temp, int n, vector<int>::size_type k) {$/;"	f	class:Solution
-compare	compare_version_numbers.c	/^int compare(char *str1,char *str2){$/;"	f
-compare	symmetric_tree.cpp	/^    bool compare(TreeNode *left_node, TreeNode *right_node) {$/;"	f	class:Solution
-compareVersion	compare_version_numbers.c	/^int compareVersion(char *version1, char *version2) {$/;"	f
-computeArea	rectangle_area.c	/^int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {$/;"	f
-compute_coverd_rectangle	rectangle_area.c	/^int compute_coverd_rectangle(int first_x_min,int first_y_min,int first_x_max,int first_y_max,$/;"	f
-compute_first_rectangle	rectangle_area.c	/^int compute_first_rectangle(int first_x_min,int first_y_min,int first_x_max,int first_y_max){$/;"	f
-compute_second_rectangle	rectangle_area.c	/^int compute_second_rectangle(int second_x_min,int second_y_min,int second_x_max,int second_y_max){$/;"	f
-connect	populating_next_right_pointers.cpp	/^    void connect(TreeLinkNode *root) {$/;"	f	class:Solution
-containsDuplicate	contains_duplicate.cpp	/^    bool containsDuplicate(vector<int>& nums) {$/;"	f	class:Solution
-containsNearbyDuplicate	contains_duplicate_II.c	/^bool containsNearbyDuplicate(int* nums, int numsSize, int k) {$/;"	f
-convert	zigzag_conversion.c	/^char* convert(char* s, int numRows) {$/;"	f
-convertToTitle	excel_sheet_column_title.c	/^char *convertToTitle(int n){$/;"	f
-count	valid_sudoku.c	/^    int count;$/;"	m	struct:NODE	file:
-countAndSay	count_and_say.cpp	/^    string countAndSay(int n) {$/;"	f	class:Solution
-countBits	counting_bits.cpp	/^    vector<int> countBits(int num) {$/;"	f	class:Solution
-countPrimes	count_primes.c	/^int countPrimes(int n) {$/;"	f
-count_1	counting_bits.cpp	/^    int count_1(bitset<32> &set) {$/;"	f	class:Solution
-current	binary_search_tree_iterator.cpp	/^    vector<TreeNode *>::size_type current;$/;"	m	class:BSTIterator	file:
-deleteDuplicates	remove_duplicates_from_sorted_list.c	/^struct ListNode *deleteDuplicates(struct ListNode *head) {$/;"	f
-deleteNode	delete_node_linked_list.c	/^void deleteNode(struct ListNode* node) {$/;"	f
-delete_zero	happy_number.c	/^int delete_zero(int x){$/;"	f
-determine	palindrome_linked_list.c	/^bool determine(struct ListNode** head) {$/;"	f
-determine_count	range_sum_query.cpp	/^    vector<int>::size_type determine_count(vector<int> &need, vector<int>::size_type low_range, vector<int>::size_type high_range, unsigned base) {$/;"	f	class:NumArray
-dfs	binary_tree_paths.cpp	/^    void dfs(TreeNode *root, string temp, vector<string> &vec) {$/;"	f	class:Solution
-dic	word_pattern.cpp	/^    vector<Element> dic;    \/\/ 字典$/;"	m	class:Solution	file:
-diffWaysToCompute	different_ways_to_add_parentheses.cpp	/^    vector<int> diffWaysToCompute(string input) {$/;"	f	class:Solution
-difference	compare_version_numbers.c	7;"	d	file:
-dq	implement_queue_using_stacks.cpp	/^    std::deque<int> dq;$/;"	m	class:Queue	file:
-dq	implement_stacks_using_queue.cpp	/^    std::deque<int> dq;$/;"	m	class:Stack	file:
-empty	implement_queue_using_stacks.cpp	/^    bool empty(void) {$/;"	f	class:Queue
-empty	implement_stacks_using_queue.cpp	/^    bool empty() {$/;"	f	class:Stack
-findKthLargest	kth_largest_element_in_array.cpp	/^    int findKthLargest(vector<int>& nums, int k) {$/;"	f	class:Solution
-findMin	find_minimun_rotated_sorted_array.cpp	/^    int findMin(vector<int> &nums) {$/;"	f	class:Solution
-findPeakElement	find_peak_element.cpp	/^    int findPeakElement(vector<int>& nums) {$/;"	f	class:Solution
-findPeakElement_helper	find_peak_element.cpp	/^    int findPeakElement_helper(vector<int> &nums, vector<int>::size_type lo, vector<int>::size_type hi) {$/;"	f	class:Solution
-find_nums_between_contains	compare_version_numbers.c	/^int find_nums_between_contains(char *start,char *end){$/;"	f
-firstBadVersion	first_bad_version.cpp	/^    int firstBadVersion(int n) {$/;"	f	class:Solution
-generate	pascal_triangle.cpp	/^    vector<vector<int>> generate(int numRows) {$/;"	f	class:Solution
-generateMatrix	spiral_matrix_2.cpp	/^    vector<vector<int>> generateMatrix(int n) {$/;"	f	class:Solution
-generateParenthesis	generate_parentheses.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution
-generateParenthesis_helper	generate_parentheses.cpp	/^    void generateParenthesis_helper(vector<string> &vec, string s, int l, int r) {$/;"	f	class:Solution
-getHeight	balanced_binary_tree.c	/^int getHeight(struct TreeNode *root) {$/;"	f
-getHint	bulls_and_cows.cpp	/^    string getHint(string secret, string guess) {$/;"	f	class:Solution
-getIntersectionNode	intersection_of_two_links.c	/^struct ListNode *getIntersectionNode(struct ListNode *headA,struct ListNode *headB) {$/;"	f
-getMin	min_stack.cpp	/^    int getMin() {$/;"	f	class:MinStack
-getRow	pascal_triangle_2.cpp	/^    vector<int> getRow(int rowIndex) {$/;"	f	class:Solution
-get_string	count_and_say.cpp	/^    string get_string(string &s) {$/;"	f	class:Solution
-get_totalpath	sum_root_to_leaf_numbers.cpp	/^    void get_totalpath(TreeNode *root, vector<string> &vec, string str) {$/;"	f	class:Solution
-grayCode	gray_code.cpp	/^    vector<int> grayCode(int n) {$/;"	f	class:Solution
-gray_helper	binary_gray_code.cpp	/^    void gray_helper(deque<deque<int>> &deq, deque<deque<int>>::size_type count) {$/;"	f	class:Solution_2
-gray_helper	binary_gray_code.cpp	/^    void gray_helper(vector<vector<int>> &ret, vector<int> &temp, vector<int>::size_type n, bool change_last) {$/;"	f	class:Solution_1
-hammingWeight	numbers_of_1_bits.c	/^int hammingWeight(uint32_t n) {$/;"	f
-hasCycle	linked_list_cycle.cpp	/^    bool hasCycle(ListNode *head) {$/;"	f	class:Solution
-hasNext	binary_search_tree_iterator.cpp	/^    bool hasNext() {$/;"	f	class:BSTIterator
-hasPathSum	path_sum.c	/^bool hasPathSum(struct TreeNode* root, int sum) {$/;"	f
-high_limit	range_sum_query.cpp	/^    vector<int>::size_type low_limit, high_limit;   \/\/ [1:n]$/;"	m	class:NumArray	file:
-hundred_block	range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
-init_Temp	valid_sudoku.c	/^void init_Temp (Node *temp, int temp_size) {$/;"	f
-initialize	search_2d_matrix.cpp	/^void initialize(vector<vector<int>> &matrix, int m, int n) {$/;"	f
-initialize	search_2d_matrix_2.cpp	/^void initialize(vector<vector<int>> &matrix, int m, int n) {$/;"	f
-initialize	set_matrix_zeroes.cpp	/^void initialize(vector<vector<int>> &matrix, int m, int n) {$/;"	f
-inorderTraversal	binary_tree_inorder_traversal.cpp	/^    vector<int> inorderTraversal(TreeNode *root) {$/;"	f	class:Solution
-inorderTraversal_helper	binary_tree_inorder_traversal.cpp	/^    void inorderTraversal_helper(TreeNode *root, vector<int> &result) {$/;"	f	class:Solution
-insert	lowest_common_ancestor.cpp	/^    TreeNode *insert(int val) {$/;"	f	class:Solution
-invertTree	invert_binary_tree.c	/^struct TreeNode* invertTree(struct TreeNode* root) {$/;"	f
-isAnagram	valid_anagram.c	/^bool isAnagram(char* s, char* t) {$/;"	f
-isBadVersion	first_bad_version.cpp	/^bool isBadVersion(int version) {$/;"	f
-isBalanced	balanced_binary_tree.c	/^bool isBalanced(struct TreeNode* root) {$/;"	f
-isHappy	happy_number.c	/^bool isHappy(int n) {$/;"	f
-isIsomorphic	isomorphic_strings.c	/^bool isIsomorphic(char* s, char* t) {$/;"	f
-isPalindrome	palindrome_linked_list.c	/^bool isPalindrome(struct ListNode *head) {$/;"	f
-isPalindrome	palindrome_number.c	/^bool isPalindrome(int x) {$/;"	f
-isPalindrome	valid_palindrome.cpp	/^    bool isPalindrome(string s) {$/;"	f	class:Solution
-isPowerOfThree	is_power_of_three.cpp	/^    bool isPowerOfThree(int n) {$/;"	f	class:Solution
-isPowerOfTwo	power_of_two.c	/^bool isPowerOfTwo(int n) {$/;"	f
-isSameTree	same_tree.c	/^bool isSameTree(struct TreeNode* p, struct TreeNode* q) {$/;"	f
-isSymmetric	symmetric_tree.cpp	/^    bool isSymmetric(TreeNode* root) {$/;"	f	class:Solution
-isUgly	ugly_number.c	/^bool isUgly(int num) {$/;"	f
-isValid	valid_parentheses.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution
-isValidOne	valid_sudoku.c	/^bool isValidOne (char **board, int i, int j, int boardRowSize, int boardColSize) {$/;"	f
-isValidOne_block	valid_sudoku.c	/^bool isValidOne_block (char **board, int num_row, int num_col, int blockrowsize, int blockcolsize) {$/;"	f
-isValidOne_column	valid_sudoku.c	/^bool isValidOne_column (char **board, int num_col, int boardRowSize) {$/;"	f
-isValidOne_row	valid_sudoku.c	/^bool isValidOne_row (char **board, int num_row, int boardColSize) {$/;"	f
-isValidSudoku	valid_sudoku.c	/^bool isValidSudoku (char** board, int boardRowSize, int boardColSize) {$/;"	f
-kthSmallest	kth_smallest_element.cpp	/^    int kthSmallest(TreeNode* root, int k) {$/;"	f	class:Solution
-left	balanced_binary_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-left	binary_search_tree_iterator.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	binary_tree_inorder_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	binary_tree_level_order_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	binary_tree_level_order_traversal_2.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	binary_tree_paths.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	binary_tree_preorder_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	binary_tree_right_side_view.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	construct_tree_postorder_inorder.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	construct_tree_preorder_inorder.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	invert_binary_tree.c	/^     struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-left	kth_smallest_element.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	lowest_common_ancestor.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	max_depth_of_binary_tree.c	/^	struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-left	minimum_depth_of_binary_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-left	path_sum.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-left	populating_next_right_pointers.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:
-left	same_tree.c	/^	struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-left	sum_root_to_leaf_numbers.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-left	symmetric_tree.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
-length	excel_sheet_column_title.c	4;"	d	file:
-lengthOfLIS	longest_increasing_subsequence.cpp	/^    int lengthOfLIS(vector<int>& nums) {$/;"	f	class:Solution
-lengthOfLastWord	length_of_last_word.c	/^int lengthOfLastWord(char* s) {$/;"	f
-length_ascii	isomorphic_strings.c	6;"	d	file:
-length_version	compare_version_numbers.c	5;"	d	file:
-levelOrder	binary_tree_level_order_traversal.cpp	/^    vector<vector<int>> levelOrder(TreeNode *root) {$/;"	f	class:Solution
-levelOrderBottom	binary_tree_level_order_traversal_2.cpp	/^    vector<vector<int>> levelOrderBottom(TreeNode *root) {$/;"	f	class:Solution
-longestCommonPrefix	longest_common_prefix.c	/^char* longestCommonPrefix(char** strs, int strsSize) {$/;"	f
-low_limit	range_sum_query.cpp	/^    vector<int>::size_type low_limit, high_limit;   \/\/ [1:n]$/;"	m	class:NumArray	file:
-lowestCommonAncestor	lowest_common_ancestor.cpp	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution
-main	add_binary.c	/^int main (void) {$/;"	f
-main	balanced_binary_tree.c	/^int main (void) {$/;"	f
-main	best_time_buy_sell_stock_2.cpp	/^int main() {$/;"	f
-main	besttime_buy_sell_cooldown.cpp	/^int main() {$/;"	f
-main	bigdata_add.cpp	/^int main() {$/;"	f
-main	binary_gray_code.cpp	/^int main() {$/;"	f
-main	binary_search_tree_iterator.cpp	/^int main() {$/;"	f
-main	binary_tree_inorder_traversal.cpp	/^int main() {$/;"	f
-main	binary_tree_level_order_traversal.cpp	/^int main () {$/;"	f
-main	binary_tree_level_order_traversal_2.cpp	/^int main () {$/;"	f
-main	binary_tree_preorder_traversal.cpp	/^int main() {$/;"	f
-main	bulb_switcher.cpp	/^int main() {$/;"	f
-main	bulls_and_cows.cpp	/^int main() {$/;"	f
-main	climbing_stairs.c	/^int main (void) {$/;"	f
-main	combination_sum_3.cpp	/^int main() {$/;"	f
-main	combinations.cpp	/^int main() {$/;"	f
-main	compare_version_numbers.c	/^int main(void){$/;"	f
-main	construct_tree_postorder_inorder.cpp	/^int main() {$/;"	f
-main	construct_tree_preorder_inorder.cpp	/^int main() {$/;"	f
-main	container_with_most_water.cpp	/^int main() {$/;"	f
-main	contains_duplicate.cpp	/^int main() {$/;"	f
-main	contains_duplicate_II.c	/^int main(void){$/;"	f
-main	convert_sortedarray_to_binarysearchtree.cpp	/^int main() {$/;"	f
-main	count_and_say.cpp	/^int main() {$/;"	f
-main	count_primes.c	/^int main(void){$/;"	f
-main	counting_bits.cpp	/^int main() {$/;"	f
-main	delete_node_linked_list.c	/^int main(void){$/;"	f
-main	different_ways_to_add_parentheses.cpp	/^int main() {$/;"	f
-main	excel_sheet_column_number.c	/^int main(void){$/;"	f
-main	excel_sheet_column_title.c	/^int main(void){$/;"	f
-main	factorial_trailing_zeroes.c	/^int main(void){$/;"	f
-main	first_bad_version.cpp	/^int main () {$/;"	f
-main	generate_parentheses.cpp	/^int main() {$/;"	f
-main	gray_code.cpp	/^int main() {$/;"	f
-main	happy_number.c	/^int main(void){$/;"	f
-main	house_robber.cpp	/^int main () {$/;"	f
-main	is_power_of_three.cpp	/^int main() {$/;"	f
-main	isomorphic_strings.c	/^int main(void){$/;"	f
-main	length_of_last_word.c	/^int main(void){$/;"	f
-main	linked_list_cycle.cpp	/^int main() {$/;"	f
-main	longest_common_prefix.c	/^int main(void){$/;"	f
-main	lowest_common_ancestor.cpp	/^int main () {$/;"	f
-main	majority_element.c	/^int main(void){$/;"	f
-main	maximum_product_of_word_lengths.cpp	/^int main() {$/;"	f
-main	maximum_subarray.c	/^int main (void) {$/;"	f
-main	merge_sorted_array.c	/^int main (void) {$/;"	f
-main	merge_two_sorted_lists.c	/^int main (void) {$/;"	f
-main	minimum_path_sum.cpp	/^int main() {$/;"	f
-main	missing_number.cpp	/^int main() {$/;"	f
-main	move_zeroes.c	/^int main (void) {$/;"	f
-main	numbers_of_1_bits.c	/^int main(void){$/;"	f
-main	odd_even_linked_list.cpp	/^int main () {$/;"	f
-main	palindrome_linked_list.c	/^int main(){$/;"	f
-main	palindrome_number.c	/^int main(){$/;"	f
-main	pascal_triangle.cpp	/^int main() {$/;"	f
-main	pascal_triangle_2.cpp	/^int main() {$/;"	f
-main	perfect_squares.cpp	/^int main() {$/;"	f
-main	permutations.cpp	/^int main() {$/;"	f
-main	plus_one.c	/^int main(void) {$/;"	f
-main	power_of_two.c	/^int main(void){$/;"	f
-main	product_except_self.cpp	/^int main() {$/;"	f
-main	range_sum_query.cpp	/^int main() {$/;"	f
-main	rectangle_area.c	/^int main(){$/;"	f
-main	remove_duplicates_from_sorted_array.c	/^int main (void) {$/;"	f
-main	remove_duplicates_from_sorted_list.c	/^int main (void) {$/;"	f
-main	remove_element.c	/^int main(void) {$/;"	f
-main	remove_linked_list_elements.c	/^int main(void){$/;"	f
-main	remove_nth_node_end_list.c	/^int main(void){$/;"	f
-main	reverse_bits.c	/^int main(void){$/;"	f
-main	reverse_integer.c	/^int main(void){$/;"	f
-main	reverse_linked_list.c	/^int main(void){$/;"	f
-main	rotate_array.c	/^int main(void){$/;"	f
-main	search_2d_matrix.cpp	/^int main() {$/;"	f
-main	search_2d_matrix_2.cpp	/^int main() {$/;"	f
-main	search_insert_position.cpp	/^int main() {$/;"	f
-main	set_matrix_zeroes.cpp	/^int main() {$/;"	f
-main	single_number_2.cpp	/^int main() {$/;"	f
-main	sort_colors.c	/^int main (void) {$/;"	f
-main	sort_list.c	/^int main(void){$/;"	f
-main	spiral_matrix_2.cpp	/^int main() {$/;"	f
-main	strStr.cpp	/^int main () {$/;"	f
-main	string_to_integer.c	/^int main (void) {$/;"	f
-main	summary_ranges.c	/^int main(){$/;"	f
-main	ugly_number.c	/^int main (void) {$/;"	f
-main	unique_binary_search_trees.cpp	/^int main() {$/;"	f
-main	unique_paths.cpp	/^int main() {$/;"	f
-main	valid_palindrome.cpp	/^int main() {$/;"	f
-main	valid_parentheses.cpp	/^int main () {$/;"	f
-main	wiggle_sort_2.c	/^int main (void) {$/;"	f
-main	word_pattern.cpp	/^int main () {$/;"	f
-main	zigzag_conversion.c	/^int main(void){$/;"	f
-majorityElement	majority_element.c	/^int majorityElement(int* nums, int numsSize) {$/;"	f
-make_happy	happy_number.c	/^int make_happy(int y){$/;"	f
-max	balanced_binary_tree.c	13;"	d	file:
-max	count_primes.c	6;"	d	file:
-max	happy_number.c	5;"	d	file:
-maxArea	container_with_most_water.cpp	/^    int maxArea(vector<int> &height) {$/;"	f	class:Solution
-maxDepth	max_depth_of_binary_tree.c	/^int maxDepth(struct TreeNode* root) {$/;"	f
-maxProduct	maximum_product_of_word_lengths.cpp	/^    int maxProduct(vector<string> &words) {$/;"	f	class:Solution
-maxProfit	best_time_buy_sell_stock_2.cpp	/^    int maxProfit(vector<int> &prices) {$/;"	f	class:Solution
-maxProfit	besttime_buy_sell_cooldown.cpp	/^    int maxProfit(vector<int> &prices) {$/;"	f	class:Solution
-maxSubArray	maximum_subarray.c	/^int maxSubArray (int *nums, int numsSize) {$/;"	f
-merge	merge_sorted_array.c	/^void merge(int* nums1, int m, int* nums2, int n) {$/;"	f
-mergeTwoLists	merge_two_sorted_lists.c	/^struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {$/;"	f
-mergesort	sort_list.c	/^void mergesort(struct ListNode** headref) {$/;"	f
-min	min_stack.cpp	/^    std::vector<int> min;$/;"	m	class:MinStack	file:
-min	minimum_path_sum.cpp	/^    int min(int i, int j) { return i < j ? i : j; }$/;"	f	class:Solution
-minDepth	minimum_depth_of_binary_tree.c	/^int minDepth(struct TreeNode* root){$/;"	f
-minPathSum	minimum_path_sum.cpp	/^    int minPathSum(vector<vector<int>> &grid) {$/;"	f	class:Solution
-missingNumber	missing_number.cpp	/^    int missingNumber(vector<int> &nums) {$/;"	f	class:Solution
-moveZeroes	move_zeroes.c	/^void moveZeroes(int* nums, int numsSize) {$/;"	f
-myAtoi	string_to_integer.c	/^int myAtoi(char* str) {$/;"	f
-next	binary_search_tree_iterator.cpp	/^    int next() {$/;"	f	class:BSTIterator
-next	delete_node_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	intersection_of_two_links.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	linked_list_cycle.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
-next	merge_two_sorted_lists.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	odd_even_linked_list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
-next	palindrome_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	populating_next_right_pointers.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:
-next	remove_duplicates_from_sorted_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	remove_linked_list_elements.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	remove_nth_node_end_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	reverse_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-next	sort_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
-numSquares	perfect_squares.cpp	/^    int numSquares(int n) {$/;"	f	class:Solution
-numTrees	unique_binary_search_trees.cpp	/^    int numTrees(int n) {$/;"	f	class:Solution
-oddEvenList	odd_even_linked_list.cpp	/^    ListNode* oddEvenList(ListNode* head) {$/;"	f	class:Solution
-one_block	range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
-p_char	word_pattern.cpp	/^    char p_char;    \/\/ pattern's char$/;"	m	struct:Element	file:
-partition	kth_largest_element_in_array.cpp	/^    vector<int>::size_type partition(vector<int> &nums, vector<int>::size_type lo, vector<int>::size_type hi) {$/;"	f	class:Solution
-peek	implement_queue_using_stacks.cpp	/^    int peek(void) {$/;"	f	class:Queue
-permute	permutations.cpp	/^    vector<vector<int>> permute(vector<int>& nums) {$/;"	f	class:Solution
-permute_helper	permutations.cpp	/^    void permute_helper(vector<vector<int>> &ret, vector<int> nums, vector<int>::size_type lo, vector<int>::size_type hi) {$/;"	f	class:Solution
-plusOne	plus_one.c	/^int* plusOne(int* digits, int digitsSize, int* returnSize) {$/;"	f
-pop	implement_queue_using_stacks.cpp	/^    void pop(void) {$/;"	f	class:Queue
-pop	implement_stacks_using_queue.cpp	/^    void pop() {$/;"	f	class:Stack
-pop	min_stack.cpp	/^    void pop() {$/;"	f	class:MinStack
-preorderTraversal	binary_tree_preorder_traversal.cpp	/^    vector<int> preorderTraversal(TreeNode *root) {$/;"	f	class:Solution
-preorderTraversal_helper	binary_tree_preorder_traversal.cpp	/^    void preorderTraversal_helper(TreeNode *root, vector<int> &result) {$/;"	f	class:Solution
-print	combinations.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
-print	search_2d_matrix.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
-print	search_2d_matrix_2.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
-print	set_matrix_zeroes.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
-productExceptSelf	product_except_self.cpp	/^    vector<int> productExceptSelf(vector<int> &nums) {$/;"	f	class:Solution
-push	implement_queue_using_stacks.cpp	/^    void push(int x) {$/;"	f	class:Queue
-push	implement_stacks_using_queue.cpp	/^    void push(int x) {$/;"	f	class:Stack
-push	kth_smallest_element.cpp	/^    void push(vector<int> &v, TreeNode *root) {$/;"	f	class:Solution
-push	min_stack.cpp	/^    void push(int x) {$/;"	f	class:MinStack
-removeDuplicates	remove_duplicates_from_sorted_array.c	/^int removeDuplicates (int *nums, int numSize) {$/;"	f
-removeDuplicates	remove_duplicates_from_sorted_array_2.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution
-removeElement	remove_element.c	/^int removeElement(int* nums, int numsSize, int val) {$/;"	f
-removeElements	remove_linked_list_elements.c	/^struct ListNode* removeElements(struct ListNode* head, int val) {$/;"	f
-removeNthFromEnd	remove_nth_node_end_list.c	/^struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {$/;"	f
-replace	reverse_linked_list.c	/^void replace(struct ListNode* current){$/;"	f
-reverse	reverse_integer.c	/^int reverse(int x) {$/;"	f
-reverseBits	reverse_bits.c	/^uint32_t reverseBits(uint32_t n) {$/;"	f
-reverseList	reverse_linked_list.c	/^struct ListNode* reverseList(struct ListNode* head) {$/;"	f
-right	balanced_binary_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-right	binary_search_tree_iterator.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	binary_tree_inorder_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	binary_tree_level_order_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	binary_tree_level_order_traversal_2.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	binary_tree_paths.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	binary_tree_preorder_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	binary_tree_right_side_view.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	construct_tree_postorder_inorder.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	construct_tree_preorder_inorder.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	invert_binary_tree.c	/^     struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-right	kth_smallest_element.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	lowest_common_ancestor.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	max_depth_of_binary_tree.c	/^	struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-right	minimum_depth_of_binary_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-right	path_sum.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-right	populating_next_right_pointers.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:
-right	same_tree.c	/^	struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
-right	sum_root_to_leaf_numbers.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-right	symmetric_tree.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
-rightSideView	binary_tree_right_side_view.cpp	/^    vector<int> rightSideView(TreeNode* root) {$/;"	f	class:Solution
-rightSideView_helper	binary_tree_right_side_view.cpp	/^    void rightSideView_helper(vector<int> &ret, deque<TreeNode *> &dq, TreeNode *root) {$/;"	f	class:Solution
-rob	house_robber.cpp	/^    int rob(vector<int> &nums) {$/;"	f	class:Solution
-rotate	rotate_array.c	/^void rotate(int* nums, int numsSize, int k) {$/;"	f
-rotate	rotate_image.cpp	/^    void rotate(vector<vector<int>>& matrix) {$/;"	f	class:Solution
-run_p1	linked_list_cycle.cpp	/^    ListNode *run_p1(ListNode *start) {     \/\/ p1以速度1往前跑$/;"	f	class:Solution
-run_p2	linked_list_cycle.cpp	/^    ListNode *run_p2(ListNode *start) {     \/\/ p2以速度2往前跑$/;"	f	class:Solution
-s_str	word_pattern.cpp	/^    string s_str;    \/\/ str's word$/;"	m	struct:Element	file:
-scale	excel_sheet_column_number.c	4;"	d	file:
-scale	excel_sheet_column_title.c	5;"	d	file:
-searchHelper	search_2d_matrix_2.cpp	/^    bool searchHelper(vector<vector<int>> &matrix, int target, int row_limit, int col_limit, int pos_row, int pos_col) {$/;"	f	class:Solution
-searchInsert	search_insert_position.cpp	/^    int searchInsert(vector<int> &nums, int target) {$/;"	f	class:Solution
-searchInsert_helper	search_insert_position.cpp	/^    vector<int>::size_type searchInsert_helper(vector<int> &nums, int target, vector<int>::size_type low_index, vector<int>::size_type high_index) {$/;"	f	class:Solution
-searchMatrix	search_2d_matrix.cpp	/^    bool searchMatrix(vector<vector<int>> &matrix, int target) {$/;"	f	class:Solution
-searchMatrix	search_2d_matrix_2.cpp	/^    bool searchMatrix(vector<vector<int>> &matrix, int target) {$/;"	f	class:Solution
-search_path_for	lowest_common_ancestor.cpp	/^    bool search_path_for(TreeNode *current_root, TreeNode *target, vector<TreeNode *> &target_path) {$/;"	f	class:Solution
-setZeroes	set_matrix_zeroes.cpp	/^    void setZeroes(vector<vector<int>>& matrix) {$/;"	f	class:Solution
-singleNumber	single_number.cpp	/^    int singleNumber(vector<int>& nums) {$/;"	f	class:Solution
-singleNumber	single_number_2.cpp	/^    int singleNumber(vector<int> &nums) {$/;"	f	class:Solution
-singleNumber	single_number_3.cpp	/^    vector<int> singleNumber(vector<int>& nums) {$/;"	f	class:Solution
-size	first_bad_version.cpp	/^const size_t size = 2;$/;"	v
-size_byte	reverse_bits.c	5;"	d	file:
-size_int	palindrome_number.c	5;"	d	file:
-sortColors	sort_colors.c	/^void sortColors(int* nums, int numsSize) {$/;"	f
-sortList	sort_list.c	/^struct ListNode* sortList(struct ListNode* head) {$/;"	f
-sortedArrayToBST	convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *sortedArrayToBST(vector<int> &nums) {$/;"	f	class:Solution
-sortedArrayToBST_helper	convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *sortedArrayToBST_helper(vector<int> &nums, vector<int>::size_type low_index, vector<int>::size_type high_index) {$/;"	f	class:Solution
-sortedMerge	sort_list.c	/^struct ListNode *sortedMerge(struct ListNode *a,struct ListNode *b){$/;"	f
-stk	valid_parentheses.cpp	/^    stack<char> stk;$/;"	m	class:Solution	file:
-store_next	reverse_linked_list.c	/^int store_next;$/;"	v
-store_prev	reverse_linked_list.c	/^int store_prev;$/;"	v
-strStr	strStr.cpp	/^    int strStr(string haystack, string needle) {$/;"	f	class:Solution
-str_store	bigdata_add.cpp	/^    const string str_store = "0123456789abcdefghijklmnopqrstuvwxyz";$/;"	m	class:Solution	file:
-sumNumbers	sum_root_to_leaf_numbers.cpp	/^    int sumNumbers(TreeNode* root) {$/;"	f	class:Solution
-sumRange	range_sum_query.cpp	/^    int sumRange(int i, int j) {$/;"	f	class:NumArray
-sum_range	range_sum_query.cpp	/^    int sum_range(vector<int> &nums, vector<int>::size_type low_range, vector<int>::size_type high_range) {$/;"	f	class:NumArray
-summaryRanges	summary_ranges.c	/^char** summaryRanges(int* nums, int numsSize, int* returnSize) {$/;"	f
-swap	permutations.cpp	/^    vector<int> &swap(vector<int>& nums, vector<int>::size_type i, vector<int>::size_type j) {$/;"	f	class:Solution
-ten_block	range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
-thousand_block	range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
-titleToNumber	excel_sheet_column_number.c	/^int titleToNumber(char* s) {$/;"	f
-top	implement_stacks_using_queue.cpp	/^    int top() {$/;"	f	class:Stack
-top	min_stack.cpp	/^    int top() {$/;"	f	class:MinStack
-trailingZeroes	factorial_trailing_zeroes.c	/^int trailingZeroes(int n) {$/;"	f
-twoSum	two_sum.cpp	/^    vector<int> twoSum(vector<int>& nums, int target) {$/;"	f	class:Solution
-uniquePaths	unique_paths.cpp	/^    int uniquePaths(int m, int n) {$/;"	f	class:Solution
-val	balanced_binary_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_search_tree_iterator.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_tree_inorder_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_tree_level_order_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_tree_level_order_traversal_2.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_tree_paths.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_tree_preorder_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	binary_tree_right_side_view.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	construct_tree_postorder_inorder.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	construct_tree_preorder_inorder.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	convert_sortedarray_to_binarysearchtree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	delete_node_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	intersection_of_two_links.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	invert_binary_tree.c	/^     int val;$/;"	m	struct:TreeNode	file:
-val	kth_smallest_element.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	linked_list_cycle.cpp	/^    int val;$/;"	m	struct:ListNode	file:
-val	lowest_common_ancestor.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	max_depth_of_binary_tree.c	/^	int val;$/;"	m	struct:TreeNode	file:
-val	merge_two_sorted_lists.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	minimum_depth_of_binary_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
-val	odd_even_linked_list.cpp	/^    int val;$/;"	m	struct:ListNode	file:
-val	palindrome_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	path_sum.c	/^    int val;$/;"	m	struct:TreeNode	file:
-val	populating_next_right_pointers.cpp	/^    int val;$/;"	m	struct:TreeLinkNode	file:
-val	remove_duplicates_from_sorted_list.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	remove_linked_list_elements.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	remove_nth_node_end_list.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	reverse_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	same_tree.c	/^	int val;$/;"	m	struct:TreeNode	file:
-val	sort_list.c	/^    int val;$/;"	m	struct:ListNode	file:
-val	sum_root_to_leaf_numbers.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-val	symmetric_tree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
-value	valid_sudoku.c	/^    char value;$/;"	m	struct:NODE	file:
-vec	binary_search_tree_iterator.cpp	/^    vector<TreeNode *> vec;$/;"	m	class:BSTIterator	file:
-vec	min_stack.cpp	/^    std::vector<int> vec;$/;"	m	class:MinStack	file:
-vec	word_pattern.cpp	/^    vector<Element> vec;    \/\/ 存储容器$/;"	m	class:Solution	file:
-versions	first_bad_version.cpp	/^static bool versions[size] = {false, false};$/;"	v	file:
-wiggleSort	wiggle_sort_2.c	/^void wiggleSort(int *nums, int numsSize) {$/;"	f
-wordPattern	word_pattern.cpp	/^    bool wordPattern(string pattern, string str) {$/;"	f	class:Solution
+BSTIterator	Design/binary_search_tree_iterator.cpp	/^    BSTIterator(TreeNode *root) {$/;"	f	class:BSTIterator
+BSTIterator	Design/binary_search_tree_iterator.cpp	/^class BSTIterator {$/;"	c	file:
+BSTIterator_helper	Design/binary_search_tree_iterator.cpp	/^    void BSTIterator_helper(TreeNode *root) {$/;"	f	class:BSTIterator
+Coder	Other/search_for_coder.cpp	/^class Coder {$/;"	c	file:
+Exception	Array/find_peak_element.cpp	/^class Exception {};$/;"	c	file:
+Exception_1	Array/bigdata_add.cpp	/^class Exception_1 {};$/;"	c	file:
+Exception_2	Array/bigdata_add.cpp	/^class Exception_2 {};$/;"	c	file:
+Find	Other/find_in_esc_array.cpp	/^    bool Find(vector<vector<int> > array, int target) {$/;"	f	class:Solution
+FrontBackSplit	List/sort_list.c	/^void FrontBackSplit(struct ListNode* source,  struct ListNode** frontRef, struct ListNode** backRef){$/;"	f
+HIPII	Design/LRU_Cache.cpp	/^    typedef unordered_map<int, PII> HIPII;   \/\/ {key, {value, iterator}}$/;"	t	class:LRUCache	file:
+HasSubtree	Tree/has_subtree.cpp	/^    bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2) {$/;"	f	class:Solution
+Iterator	Design/peeking_iterator.cpp	/^class Iterator {$/;"	c	file:
+LI	Design/LRU_Cache.cpp	/^    typedef list<int> LI;                    \/\/ {key}$/;"	t	class:LRUCache	file:
+LIMIT	Math/reverse_integer.c	5;"	d	file:
+LIMIT_min	Math/reverse_integer.c	6;"	d	file:
+LRUCache	Design/LRU_Cache.cpp	/^    LRUCache(int capacity) : _capacity(capacity) { }$/;"	f	class:LRUCache
+LRUCache	Design/LRU_Cache.cpp	/^class LRUCache {$/;"	c	file:
+ListNode	List/delete_node_linked_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/insertion_sort_list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	List/insertion_sort_list.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	List/intersection_of_two_links.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/linked_list_cycle.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	List/linked_list_cycle.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	List/merge_two_sorted_lists.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/odd_even_linked_list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	List/odd_even_linked_list.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	List/palindrome_linked_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/print_list_tail_to_head.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	List/print_list_tail_to_head.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	List/remove_duplicates_from_sorted_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/remove_linked_list_elements.c	/^struct ListNode{$/;"	s	file:
+ListNode	List/remove_nth_node_end_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/remove_nth_node_end_list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	List/remove_nth_node_end_list.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	List/reverse_linked_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/sort_list.c	/^struct ListNode {$/;"	s	file:
+ListNode	List/swap_nodes_in_pairs.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	List/swap_nodes_in_pairs.cpp	/^struct ListNode {$/;"	s	file:
+MinStack	Stack/min_stack.cpp	/^    MinStack() {$/;"	f	class:MinStack
+MinStack	Stack/min_stack.cpp	/^class MinStack {$/;"	c	file:
+N	String/string_to_integer.c	6;"	d	file:
+NumArray	DP/range_sum_query.cpp	/^    NumArray(vector<int> &nums) {$/;"	f	class:NumArray
+NumArray	DP/range_sum_query.cpp	/^class NumArray {$/;"	c	file:
+PII	Design/LRU_Cache.cpp	/^    typedef pair<int, LI::iterator> PII;     \/\/ {value, iterator}$/;"	t	class:LRUCache	file:
+PeekingIterator	Design/peeking_iterator.cpp	/^	PeekingIterator(const vector<int>& nums) : Iterator(nums) {$/;"	f	class:PeekingIterator
+PeekingIterator	Design/peeking_iterator.cpp	/^class PeekingIterator : public Iterator {$/;"	c	file:
+Queue	Stack/implement_queue_using_stacks.cpp	/^class Queue {$/;"	c	file:
+SIZE	Array/plus_one.c	11;"	d	file:
+Solution	Array/4_sum.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/best_time_buy_sell_stock_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/bigdata_add.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/combination_sum_3.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/container_with_most_water.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/contains_duplicate.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/find_minimum_in_rotated_sorted_array_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/find_minimun_rotated_sorted_array.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/find_peak_element.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/game_of_life.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/minimum_size_subarray_sum.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/missing_number.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/next_perutation.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/pascal_triangle.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/pascal_triangle_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/product_except_self.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/remove_duplicates_from_sorted_array_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/rotate_image.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/search_2d_matrix.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/search_insert_position.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/set_matrix_zeroes.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/spiral_matrix_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Array/two_sum.cpp	/^class Solution {$/;"	c	file:
+Solution	Backtracking/combinations.cpp	/^class Solution {$/;"	c	file:
+Solution	Backtracking/gray_code.cpp	/^class Solution {$/;"	c	file:
+Solution	Backtracking/permutations.cpp	/^class Solution {$/;"	c	file:
+Solution	Bit_Manipulation/max_xor.cpp	/^class Solution {$/;"	c	file:
+Solution	Bit_Manipulation/maximum_product_of_word_lengths.cpp	/^class Solution {$/;"	c	file:
+Solution	Bit_Manipulation/power_of_four.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/besttime_buy_sell_cooldown.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/coin_change.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/counting_bits.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/house_robber.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/house_robber_2.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/longest_increasing_subsequence.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/minimum_path_sum.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/unique_path_2.cpp	/^class Solution {$/;"	c	file:
+Solution	DP/unique_paths.cpp	/^class Solution {$/;"	c	file:
+Solution	Divide_and_Conquer/different_ways_to_add_parentheses.cpp	/^class Solution {$/;"	c	file:
+Solution	Divide_and_Conquer/kth_largest_element_in_array.cpp	/^class Solution {$/;"	c	file:
+Solution	Divide_and_Conquer/search_2d_matrix_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/H-index.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/bulls_and_cows.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/intersection_of_two_arrays.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/intersection_of_two_arrays_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/single_number.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/single_number_2.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/single_number_3.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/word_pattern.cpp	/^class Solution {$/;"	c	file:
+Solution	Hash_Table/word_pattern_2.cpp	/^class Solution {$/;"	c	file:
+Solution	List/insertion_sort_list.cpp	/^class Solution {$/;"	c	file:
+Solution	List/linked_list_cycle.cpp	/^class Solution {$/;"	c	file:
+Solution	List/odd_even_linked_list.cpp	/^class Solution {$/;"	c	file:
+Solution	List/print_list_tail_to_head.cpp	/^class Solution {$/;"	c	file:
+Solution	List/remove_nth_node_end_list.cpp	/^class Solution {$/;"	c	file:
+Solution	List/swap_nodes_in_pairs.cpp	/^class Solution {$/;"	c	file:
+Solution	Math/bulb_switcher.cpp	/^class Solution {$/;"	c	file:
+Solution	Math/is_power_of_three.cpp	/^class Solution {$/;"	c	file:
+Solution	Math/power_of_three.cpp	/^class Solution {$/;"	c	file:
+Solution	Math/sqrt.cpp	/^class Solution {$/;"	c	file:
+Solution	Other/find_in_esc_array.cpp	/^class Solution {$/;"	c	file:
+Solution	Other/first_bad_version.cpp	/^class Solution {$/;"	c	file:
+Solution	Other/prices_profit.cpp	/^class Solution {$/;"	c	file:
+Solution	Other/replace_space.cpp	/^class Solution {$/;"	c	file:
+Solution	Other/rotate_array_least_search.cpp	/^class Solution {$/;"	c	file:
+Solution	Stack/reverse_polish_notation.cpp	/^class Solution {$/;"	c	file:
+Solution	String/basic_calculator_2_new.cpp	/^class Solution {$/;"	c	file:
+Solution	String/basic_calculator_2_old.cpp	/^class Solution {$/;"	c	file:
+Solution	String/count_and_say.cpp	/^class Solution {$/;"	c	file:
+Solution	String/decode_ways.cpp	/^class Solution {$/;"	c	file:
+Solution	String/generate_parentheses.cpp	/^class Solution {$/;"	c	file:
+Solution	String/group_anagrams.cpp	/^class Solution {$/;"	c	file:
+Solution	String/length_of_last_word.cpp	/^class Solution {$/;"	c	file:
+Solution	String/letter_combination.cpp	/^class Solution {$/;"	c	file:
+Solution	String/longest_common_prefix.cpp	/^class Solution {$/;"	c	file:
+Solution	String/longest_palindromic_substring.cpp	/^class Solution {$/;"	c	file:
+Solution	String/longest_substring_atmost_two_distinct_characters.cpp	/^class Solution {$/;"	c	file:
+Solution	String/longest_substring_without_repeating_characters.cpp	/^class Solution {$/;"	c	file:
+Solution	String/longest_substring_without_repeating_characters_2.cpp	/^class Solution {$/;"	c	file:
+Solution	String/minimum_window_substring.cpp	/^class Solution {$/;"	c	file:
+Solution	String/multiply_strings.cpp	/^class Solution {$/;"	c	file:
+Solution	String/restore_ip_addresses.cpp	/^class Solution {$/;"	c	file:
+Solution	String/reverse_string.cpp	/^class Solution {$/;"	c	file:
+Solution	String/reverse_vowels_of_a_string.cpp	/^class Solution {$/;"	c	file:
+Solution	String/reverse_words_in_a_string.cpp	/^class Solution {$/;"	c	file:
+Solution	String/simplify_path.cpp	/^class Solution {$/;"	c	file:
+Solution	String/strStr.cpp	/^class Solution {$/;"	c	file:
+Solution	String/strStr_kmp.cpp	/^class Solution {$/;"	c	file:
+Solution	String/valid_palindrome.cpp	/^class Solution {$/;"	c	file:
+Solution	String/valid_parentheses.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/binary_tree_inorder_traversal.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/binary_tree_level_order_traversal.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/binary_tree_paths.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/binary_tree_preorder_traversal.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/binary_tree_right_side_view.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/construct_tree_postorder_inorder.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/construct_tree_preorder_inorder.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/has_subtree.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/kth_smallest_element.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/lowest_common_ancestor.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/populating_next_right_pointers.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/sum_root_to_leaf_numbers.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/symmetric_tree.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/unique_binary_search_trees.cpp	/^class Solution {$/;"	c	file:
+Solution	Tree/unique_binary_search_trees_2.cpp	/^class Solution {$/;"	c	file:
+Solution_1	DP/perfect_squares.cpp	/^class Solution_1 {$/;"	c	file:
+Solution_1	Other/binary_gray_code.cpp	/^class Solution_1 {$/;"	c	file:
+Solution_2	DP/perfect_squares.cpp	/^class Solution_2 {$/;"	c	file:
+Solution_2	Other/binary_gray_code.cpp	/^class Solution_2 {$/;"	c	file:
+Solution_Advance	Array/4_sum.cpp	/^class Solution_Advance {$/;"	c	file:
+Stack	Stack/implement_stacks_using_queue.cpp	/^class Stack {$/;"	c	file:
+Tree	Other/binary_search_tree.cpp	/^    Tree() : root(NULL) {}$/;"	f	class:Tree
+Tree	Other/binary_search_tree.cpp	/^class Tree {$/;"	c	file:
+TreeLinkNode	Tree/populating_next_right_pointers.cpp	/^    TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}$/;"	f	struct:TreeLinkNode
+TreeLinkNode	Tree/populating_next_right_pointers.cpp	/^struct TreeLinkNode {$/;"	s	file:
+TreeNode	Design/binary_search_tree_iterator.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Design/binary_search_tree_iterator.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Other/binary_search_tree.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL), parent(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Other/binary_search_tree.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/balanced_binary_tree.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/binary_tree_inorder_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/binary_tree_inorder_traversal.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/binary_tree_level_order_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/binary_tree_level_order_traversal.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/binary_tree_paths.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/binary_tree_paths.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/binary_tree_preorder_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/binary_tree_preorder_traversal.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/binary_tree_right_side_view.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/binary_tree_right_side_view.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/construct_tree_postorder_inorder.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/construct_tree_postorder_inorder.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/construct_tree_preorder_inorder.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/construct_tree_preorder_inorder.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/has_subtree.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/has_subtree.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/invert_binary_tree.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/kth_smallest_element.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/kth_smallest_element.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/lowest_common_ancestor.cpp	/^    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/lowest_common_ancestor.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/max_depth_of_binary_tree.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/minimum_depth_of_binary_tree.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/path_sum.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/same_tree.c	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/sum_root_to_leaf_numbers.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/sum_root_to_leaf_numbers.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/symmetric_tree.cpp	/^    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}$/;"	f	struct:TreeNode
+TreeNode	Tree/symmetric_tree.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	Tree/unique_binary_search_trees_2.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) { }$/;"	f	struct:TreeNode
+TreeNode	Tree/unique_binary_search_trees_2.cpp	/^struct TreeNode {$/;"	s	file:
+Visit	Other/visit.cpp	/^class Visit {$/;"	c	file:
+_capacity	Design/LRU_Cache.cpp	/^    int _capacity;$/;"	m	class:LRUCache	file:
+adapt_for_digits	String/compare_version_numbers.c	/^void adapt_for_digits(char *str1, char *str2,char *format_version1,char *format_version2){$/;"	f
+addBinary	String/add_binary.c	/^char* addBinary(char* a, char* b) {$/;"	f
+addDigits	Math/add_digits.c	/^int addDigits(int num) {$/;"	f
+add_contain_n	String/compare_version_numbers.c	/^char *add_contain_n(char *str,int n){$/;"	f
+add_digits	Array/pascal_triangle.cpp	/^    vector<int> add_digits(int level, vector<int> &previous) {$/;"	f	class:Solution
+add_digits_n	String/compare_version_numbers.c	/^char *add_digits_n(char *start_dest,int n){$/;"	f
+add_remain	String/compare_version_numbers.c	/^char *add_remain(char *start_dest,char *start_source,char *end_source){$/;"	f
+big_add	Array/bigdata_add.cpp	/^    string big_add(string &str1, string &str2, int ary) {$/;"	f	class:Solution
+binaryTreePaths	Tree/binary_tree_paths.cpp	/^    vector<string> binaryTreePaths(TreeNode* root) {$/;"	f	class:Solution
+binary_gray_code	Other/binary_gray_code.cpp	/^    vector<vector<int>> binary_gray_code(int n) {$/;"	f	class:Solution_1
+binary_gray_code	Other/binary_gray_code.cpp	/^    vector<vector<int>> binary_gray_code(int n) {$/;"	f	class:Solution_2
+binary_search	Math/sqrt.cpp	/^    long long int binary_search(long long int x, long long int lo, long long int hi) {$/;"	f	class:Solution	file:
+binary_search	Other/binary_search_tree.cpp	/^    TreeNode *binary_search(int x) { return binary_search_helper(root, x); }$/;"	f	class:Tree
+binary_search_helper	Other/binary_search_tree.cpp	/^TreeNode *Tree::binary_search_helper(TreeNode *tree_node, int x) {$/;"	f	class:Tree
+buf_size	Array/summary_ranges.c	10;"	d	file:
+buildTree	Tree/construct_tree_postorder_inorder.cpp	/^    TreeNode* buildTree(vector<int> &inorder, vector<int>& postorder) {$/;"	f	class:Solution
+buildTree	Tree/construct_tree_preorder_inorder.cpp	/^    TreeNode* buildTree(vector<int> &preorder, vector<int>& inorder) {$/;"	f	class:Solution
+buildTree_helper	Tree/construct_tree_postorder_inorder.cpp	/^    TreeNode *buildTree_helper(vector<int>::iterator begin_postorder, vector<int>::iterator end_postorder,$/;"	f	class:Solution
+buildTree_helper	Tree/construct_tree_preorder_inorder.cpp	/^    TreeNode *buildTree_helper(vector<int>::iterator begin_preorder, vector<int>::iterator end_preorder,$/;"	f	class:Solution
+bulbSwitch	Math/bulb_switcher.cpp	/^    int bulbSwitch(int n) {$/;"	f	class:Solution
+cache	Design/LRU_Cache.cpp	/^    HIPII cache;   \/\/ a hash map$/;"	m	class:LRUCache	file:
+cal_nums_contain	String/compare_version_numbers.c	/^int cal_nums_contain(char *str){$/;"	f
+calculate	String/basic_calculator_2_new.cpp	/^    int calculate(string s) {$/;"	f	class:Solution
+calculate	String/basic_calculator_2_old.cpp	/^    int calculate(string s) {$/;"	f	class:Solution
+calculateMax	Other/prices_profit.cpp	/^    int calculateMax(vector<int> prices) {$/;"	f	class:Solution
+calculateMax_Per	Other/prices_profit.cpp	/^    int calculateMax_Per(vector<int> &prices, int lo, int hi, vector<int> &b, vector<int> &s) {$/;"	f	class:Solution
+capacity	Hash_Table/word_pattern_2.cpp	/^    static const int capacity = 10007;$/;"	m	class:Solution	file:
+check	Other/binary_gray_code.cpp	/^bool check(vector<vector<int>> &ret) {$/;"	f
+climbStairs	DP/climbing_stairs.c	/^int climbStairs (int n) {$/;"	f
+clone	Backtracking/gray_code.cpp	/^    void clone(vector<int> &result, int product) {$/;"	f	class:Solution
+clone	Tree/unique_binary_search_trees_2.cpp	/^    TreeNode *clone(TreeNode *root, int offset) {$/;"	f	class:Solution	file:
+coinChange	DP/coin_change.cpp	/^    int coinChange(vector<int>& coins, int amount) {$/;"	f	class:Solution
+combinationSum3	Array/combination_sum_3.cpp	/^    vector<vector<int>> combinationSum3(int k, int n) {$/;"	f	class:Solution
+combinationSum3_helper	Array/combination_sum_3.cpp	/^    void combinationSum3_helper(vector<vector<int>> &ret, vector<int> temp, int n, int k) {$/;"	f	class:Solution
+combine	Backtracking/combinations.cpp	/^    vector<vector<int>> combine(int n, int k) {$/;"	f	class:Solution
+combine_helper	Backtracking/combinations.cpp	/^    void combine_helper(vector<vector<int>> &ret, vector<int> temp, int n, vector<int>::size_type k) {$/;"	f	class:Solution
+compare	String/compare_version_numbers.c	/^int compare(char *str1,char *str2){$/;"	f
+compare	Tree/symmetric_tree.cpp	/^    bool compare(TreeNode *left_node, TreeNode *right_node) {$/;"	f	class:Solution
+compareVersion	String/compare_version_numbers.c	/^int compareVersion(char *version1, char *version2) {$/;"	f
+computeArea	Math/rectangle_area.c	/^int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {$/;"	f
+compute_coverd_rectangle	Math/rectangle_area.c	/^int compute_coverd_rectangle(int first_x_min,int first_y_min,int first_x_max,int first_y_max,$/;"	f
+compute_first_rectangle	Math/rectangle_area.c	/^int compute_first_rectangle(int first_x_min,int first_y_min,int first_x_max,int first_y_max){$/;"	f
+compute_second_rectangle	Math/rectangle_area.c	/^int compute_second_rectangle(int second_x_min,int second_y_min,int second_x_max,int second_y_max){$/;"	f
+connect	Tree/populating_next_right_pointers.cpp	/^    void connect(TreeLinkNode *root) {$/;"	f	class:Solution
+containsDuplicate	Array/contains_duplicate.cpp	/^    bool containsDuplicate(vector<int>& nums) {$/;"	f	class:Solution
+containsNearbyDuplicate	Array/contains_duplicate_II.c	/^bool containsNearbyDuplicate(int* nums, int numsSize, int k) {$/;"	f
+convert	String/zigzag_conversion.c	/^char* convert(char* s, int numRows) {$/;"	f
+convertToTitle	Math/excel_sheet_column_title.c	/^char *convertToTitle(int n){$/;"	f
+countAndSay	String/count_and_say.cpp	/^    string countAndSay(int n) {$/;"	f	class:Solution
+countBits	DP/counting_bits.cpp	/^    vector<int> countBits(int num) {$/;"	f	class:Solution
+countPath	Other/visit.cpp	/^    int countPath(vector<vector<int> > map, int n, int m) {$/;"	f	class:Visit
+countPrimes	Hash_Table/count_primes.c	/^int countPrimes(int n) {$/;"	f
+count_1	DP/counting_bits.cpp	/^    int count_1(bitset<32> &set) {$/;"	f	class:Solution
+current	Design/binary_search_tree_iterator.cpp	/^    vector<TreeNode *>::size_type current;$/;"	m	class:BSTIterator	file:
+data	Design/peeking_iterator.cpp	/^	Data* data;$/;"	m	class:Iterator	file:
+deleteDuplicates	List/remove_duplicates_from_sorted_list.c	/^struct ListNode *deleteDuplicates(struct ListNode *head) {$/;"	f
+deleteNode	List/delete_node_linked_list.c	/^void deleteNode(struct ListNode* node) {$/;"	f
+delete_zero	Hash_Table/happy_number.c	/^int delete_zero(int x){$/;"	f
+determine	List/palindrome_linked_list.c	/^bool determine(struct ListNode** head) {$/;"	f
+determine_count	DP/range_sum_query.cpp	/^    vector<int>::size_type determine_count(vector<int> &need, vector<int>::size_type low_range, vector<int>::size_type high_range, unsigned base) {$/;"	f	class:NumArray
+dfs	String/restore_ip_addresses.cpp	/^    void dfs(vector<string> &ret, string &s, string ip, int start, int step) {$/;"	f	class:Solution	file:
+dfs	Tree/binary_tree_paths.cpp	/^    void dfs(TreeNode *root, string temp, vector<string> &vec) {$/;"	f	class:Solution
+diffWaysToCompute	Divide_and_Conquer/different_ways_to_add_parentheses.cpp	/^    vector<int> diffWaysToCompute(string input) {$/;"	f	class:Solution
+difference	String/compare_version_numbers.c	7;"	d	file:
+dq	Stack/implement_queue_using_stacks.cpp	/^    std::deque<int> dq;$/;"	m	class:Queue	file:
+dq	Stack/implement_stacks_using_queue.cpp	/^    std::deque<int> dq;$/;"	m	class:Stack	file:
+empty	Stack/implement_queue_using_stacks.cpp	/^    bool empty(void) {$/;"	f	class:Queue
+empty	Stack/implement_stacks_using_queue.cpp	/^    bool empty() {$/;"	f	class:Stack
+evalRPN	Stack/reverse_polish_notation.cpp	/^    int evalRPN(vector<string>& tokens) {$/;"	f	class:Solution
+findCoder	Other/search_for_coder.cpp	/^    vector<string> findCoder(vector<string> A, int n) {$/;"	f	class:Coder
+findKthLargest	Divide_and_Conquer/kth_largest_element_in_array.cpp	/^    int findKthLargest(vector<int>& nums, int k) {$/;"	f	class:Solution
+findMax	Other/binary_search_tree.cpp	/^    TreeNode *findMax() { return findMax_helper(root); }$/;"	f	class:Tree
+findMax_helper	Other/binary_search_tree.cpp	/^TreeNode *Tree::findMax_helper(TreeNode *tree_node) {$/;"	f	class:Tree
+findMin	Array/find_minimum_in_rotated_sorted_array_2.cpp	/^    int findMin(vector<int>& nums) {$/;"	f	class:Solution
+findMin	Array/find_minimun_rotated_sorted_array.cpp	/^    int findMin(vector<int> &nums) {$/;"	f	class:Solution
+findMin	Other/binary_search_tree.cpp	/^    TreeNode *findMin() { return findMin_helper(root); }$/;"	f	class:Tree
+findMin_helper	Other/binary_search_tree.cpp	/^TreeNode *Tree::findMin_helper(TreeNode *tree_node) {$/;"	f	class:Tree
+findPeakElement	Array/find_peak_element.cpp	/^    int findPeakElement(vector<int>& nums) {$/;"	f	class:Solution
+findPeakElement_helper	Array/find_peak_element.cpp	/^    int findPeakElement_helper(vector<int> &nums, vector<int>::size_type lo, vector<int>::size_type hi) {$/;"	f	class:Solution
+findPredecessor	Other/binary_search_tree.cpp	/^TreeNode *Tree::findPredecessor(TreeNode *node) {$/;"	f	class:Tree
+findSuccessor	Other/binary_search_tree.cpp	/^TreeNode *Tree::findSuccessor(TreeNode *node) {$/;"	f	class:Tree
+find_nums_between_contains	String/compare_version_numbers.c	/^int find_nums_between_contains(char *start,char *end){$/;"	f
+firstBadVersion	Other/first_bad_version.cpp	/^    int firstBadVersion(int n) {$/;"	f	class:Solution
+fourSum	Array/4_sum.cpp	/^    vector<vector<int>> fourSum(vector<int> &nums, int target) {$/;"	f	class:Solution
+fourSum	Array/4_sum.cpp	/^    vector<vector<int>> fourSum(vector<int> &nums, int target) {$/;"	f	class:Solution_Advance
+gameOfLife	Array/game_of_life.cpp	/^    void gameOfLife(vector<vector<int>> &board) {$/;"	f	class:Solution
+generate	Array/pascal_triangle.cpp	/^    vector<vector<int>> generate(int numRows) {$/;"	f	class:Solution
+generateMatrix	Array/spiral_matrix_2.cpp	/^    vector<vector<int>> generateMatrix(int n) {$/;"	f	class:Solution
+generateParenthesis	String/generate_parentheses.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution
+generateParenthesis_helper	String/generate_parentheses.cpp	/^    void generateParenthesis_helper(vector<string> &vec, string s, int l, int r) {$/;"	f	class:Solution
+generateTrees	Tree/unique_binary_search_trees_2.cpp	/^    vector<TreeNode *> generateTrees(int n) {$/;"	f	class:Solution
+get	Design/LRU_Cache.cpp	/^    int get(int key) {$/;"	f	class:LRUCache
+getHeight	Tree/balanced_binary_tree.c	/^int getHeight(struct TreeNode *root) {$/;"	f
+getHint	Hash_Table/bulls_and_cows.cpp	/^    string getHint(string secret, string guess) {$/;"	f	class:Solution
+getIntersectionNode	List/intersection_of_two_links.c	/^struct ListNode *getIntersectionNode(struct ListNode *headA,struct ListNode *headB) {$/;"	f
+getMax	Bit_Manipulation/max_xor.cpp	/^    int getMax(int x, int y) {$/;"	f	class:Solution	file:
+getMin	Stack/min_stack.cpp	/^    int getMin() {$/;"	f	class:MinStack
+getNext	String/strStr_kmp.cpp	/^    vector<int> getNext(string needle) {$/;"	f	class:Solution	file:
+getPriority	String/basic_calculator_2_old.cpp	/^    int getPriority(char operator_char) {$/;"	f	class:Solution
+getRow	Array/pascal_triangle_2.cpp	/^    vector<int> getRow(int rowIndex) {$/;"	f	class:Solution
+get_string	String/count_and_say.cpp	/^    string get_string(string &s) {$/;"	f	class:Solution
+get_totalpath	Tree/sum_root_to_leaf_numbers.cpp	/^    void get_totalpath(TreeNode *root, vector<string> &vec, string str) {$/;"	f	class:Solution
+getnum	Hash_Table/H-index.cpp	/^    int getnum(vector<int>& citations, int i) {$/;"	f	class:Solution
+grayCode	Backtracking/gray_code.cpp	/^    vector<int> grayCode(int n) {$/;"	f	class:Solution
+gray_helper	Other/binary_gray_code.cpp	/^    void gray_helper(deque<deque<int>> &deq, deque<deque<int>>::size_type count) {$/;"	f	class:Solution_2
+gray_helper	Other/binary_gray_code.cpp	/^    void gray_helper(vector<vector<int>> &ret, vector<int> &temp, vector<int>::size_type n, bool change_last) {$/;"	f	class:Solution_1
+groupAnagrams	String/group_anagrams.cpp	/^    vector<vector<string>> groupAnagrams(vector<string>& strs) {$/;"	f	class:Solution
+hIndex	Hash_Table/H-index.cpp	/^    int hIndex(vector<int>& citations) {$/;"	f	class:Solution
+hammingWeight	Bit_Manipulation/numbers_of_1_bits.c	/^int hammingWeight(uint32_t n) {$/;"	f
+hasCycle	List/linked_list_cycle.cpp	/^    bool hasCycle(ListNode *head) {$/;"	f	class:Solution
+hasNext	Design/binary_search_tree_iterator.cpp	/^    bool hasNext() {$/;"	f	class:BSTIterator
+hasNext	Design/peeking_iterator.cpp	/^	bool hasNext() const {$/;"	f	class:PeekingIterator
+hasPathSum	Tree/path_sum.c	/^bool hasPathSum(struct TreeNode* root, int sum) {$/;"	f
+hash_function_str	Hash_Table/word_pattern_2.cpp	/^    int hash_function_str(const string &key, vector<pair<string, int>> &hash_array, int index) {$/;"	f	class:Solution	file:
+height	Other/binary_search_tree.cpp	/^    int height() { return height_helper(root); }$/;"	f	class:Tree
+height_helper	Other/binary_search_tree.cpp	/^int Tree::height_helper(TreeNode *tree_node) {$/;"	f	class:Tree
+high_limit	DP/range_sum_query.cpp	/^    vector<int>::size_type low_limit, high_limit;   \/\/ [1:n]$/;"	m	class:NumArray	file:
+hundred_block	DP/range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
+infix_to_postfix	String/basic_calculator_2_old.cpp	/^    vector<string> infix_to_postfix(string infix) {$/;"	f	class:Solution
+initialize	Array/search_2d_matrix.cpp	/^void initialize(vector<vector<int>> &matrix, int m, int n) {$/;"	f
+initialize	Array/set_matrix_zeroes.cpp	/^void initialize(vector<vector<int>> &matrix, int m, int n) {$/;"	f
+initialize	Divide_and_Conquer/search_2d_matrix_2.cpp	/^void initialize(vector<vector<int>> &matrix, int m, int n) {$/;"	f
+initialize	String/letter_combination.cpp	/^    void initialize(vector<string> &vec) {$/;"	f	class:Solution	file:
+initsumPath	Other/visit.cpp	/^    void initsumPath(vector<vector<int>> &map, vector<vector<int>> &sum_path, pair<int, int> &pos_manager, int n, int m) {$/;"	f	class:Visit
+inorderPrint	Other/binary_search_tree.cpp	/^    void inorderPrint() {$/;"	f	class:Tree
+inorderPrint_helper	Other/binary_search_tree.cpp	/^void Tree::inorderPrint_helper(TreeNode *tree_node) {$/;"	f	class:Tree
+inorderTraversal	Tree/binary_tree_inorder_traversal.cpp	/^    vector<int> inorderTraversal(TreeNode *root) {$/;"	f	class:Solution
+inorderTraversal_helper	Tree/binary_tree_inorder_traversal.cpp	/^    void inorderTraversal_helper(TreeNode *root, vector<int> &result) {$/;"	f	class:Solution
+insert	Other/binary_search_tree.cpp	/^    void insert(int x) { root = insert_helper(NULL, root, x); }$/;"	f	class:Tree
+insert	Tree/lowest_common_ancestor.cpp	/^    TreeNode *insert(int val) {$/;"	f	class:Solution
+insert_helper	Other/binary_search_tree.cpp	/^TreeNode *Tree::insert_helper(TreeNode *parent_node, TreeNode *tree_node, int x) {$/;"	f	class:Tree
+insertionSortList	List/insertion_sort_list.cpp	/^    ListNode* insertionSortList(ListNode* head) {$/;"	f	class:Solution
+intersect	Hash_Table/intersection_of_two_arrays_2.cpp	/^    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution
+intersection	Hash_Table/intersection_of_two_arrays.cpp	/^    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution
+invertTree	Tree/invert_binary_tree.c	/^struct TreeNode* invertTree(struct TreeNode* root) {$/;"	f
+isAnagram	Hash_Table/valid_anagram.c	/^bool isAnagram(char* s, char* t) {$/;"	f
+isBadVersion	Other/first_bad_version.cpp	/^bool isBadVersion(int version) {$/;"	f
+isBalanced	Tree/balanced_binary_tree.c	/^bool isBalanced(struct TreeNode* root) {$/;"	f
+isContain	String/reverse_vowels_of_a_string.cpp	/^    bool isContain(char c) {$/;"	f	class:Solution
+isHappy	Hash_Table/happy_number.c	/^bool isHappy(int n) {$/;"	f
+isIsomorphic	Hash_Table/isomorphic_strings.c	/^bool isIsomorphic(char* s, char* t) {$/;"	f
+isPalindrome	List/palindrome_linked_list.c	/^bool isPalindrome(struct ListNode *head) {$/;"	f
+isPalindrome	Math/palindrome_number.c	/^bool isPalindrome(int x) {$/;"	f
+isPalindrome	String/valid_palindrome.cpp	/^    bool isPalindrome(string s) {$/;"	f	class:Solution
+isPowerOfFour	Bit_Manipulation/power_of_four.cpp	/^    bool isPowerOfFour(int num) {$/;"	f	class:Solution
+isPowerOfThree	Math/is_power_of_three.cpp	/^    bool isPowerOfThree(int n) {$/;"	f	class:Solution
+isPowerOfThree	Math/power_of_three.cpp	/^    bool isPowerOfThree(int n) {$/;"	f	class:Solution
+isPowerOfTwo	Math/power_of_two.c	/^bool isPowerOfTwo(int n) {$/;"	f
+isSameTree	Tree/same_tree.c	/^bool isSameTree(struct TreeNode* p, struct TreeNode* q) {$/;"	f
+isSubtree	Tree/has_subtree.cpp	/^    bool isSubtree(TreeNode *pRoot1, TreeNode *pRoot2) {$/;"	f	class:Solution	file:
+isSymmetric	Tree/symmetric_tree.cpp	/^    bool isSymmetric(TreeNode* root) {$/;"	f	class:Solution
+isUgly	DP/ugly_number.c	/^bool isUgly(int num) {$/;"	f
+isValid	String/valid_parentheses.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution
+is_operator_char	String/basic_calculator_2_old.cpp	/^    bool is_operator_char(char &c) {$/;"	f	class:Solution
+is_operator_str	String/basic_calculator_2_old.cpp	/^    bool is_operator_str(string &s) {$/;"	f	class:Solution
+is_square	DP/perfect_squares.cpp	/^    bool is_square(int n) {$/;"	f	class:Solution_2	file:
+isvalid_one	String/decode_ways.cpp	/^    bool isvalid_one(char c) {$/;"	f	class:Solution
+isvalid_two	String/decode_ways.cpp	/^    bool isvalid_two(string str) {$/;"	f	class:Solution
+kthSmallest	Tree/kth_smallest_element.cpp	/^    int kthSmallest(TreeNode* root, int k) {$/;"	f	class:Solution
+left	Design/binary_search_tree_iterator.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Other/binary_search_tree.cpp	/^    TreeNode *left, *right, *parent;$/;"	m	struct:TreeNode	file:
+left	Tree/balanced_binary_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/binary_tree_inorder_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/binary_tree_level_order_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/binary_tree_paths.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/binary_tree_preorder_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/binary_tree_right_side_view.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/construct_tree_postorder_inorder.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/construct_tree_preorder_inorder.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/has_subtree.cpp	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/invert_binary_tree.c	/^     struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/kth_smallest_element.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/lowest_common_ancestor.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/max_depth_of_binary_tree.c	/^	struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/minimum_depth_of_binary_tree.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/path_sum.c	/^    struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/populating_next_right_pointers.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:
+left	Tree/same_tree.c	/^	struct TreeNode *left;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+left	Tree/sum_root_to_leaf_numbers.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/symmetric_tree.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	Tree/unique_binary_search_trees_2.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+length	Math/excel_sheet_column_title.c	4;"	d	file:
+lengthOfLIS	DP/longest_increasing_subsequence.cpp	/^    int lengthOfLIS(vector<int>& nums) {$/;"	f	class:Solution
+lengthOfLastWord	String/length_of_last_word.c	/^int lengthOfLastWord(char* s) {$/;"	f
+lengthOfLastWord	String/length_of_last_word.cpp	/^    int lengthOfLastWord(string s) {$/;"	f	class:Solution
+lengthOfLongestSubstring	String/longest_substring_without_repeating_characters.cpp	/^    int lengthOfLongestSubstring(string s) {$/;"	f	class:Solution
+lengthOfLongestSubstring	String/longest_substring_without_repeating_characters_2.cpp	/^    string lengthOfLongestSubstring(string s) {$/;"	f	class:Solution
+lengthOfLongestSubstringTwoDistinct	String/longest_substring_atmost_two_distinct_characters.cpp	/^    string lengthOfLongestSubstringTwoDistinct(string s) {$/;"	f	class:Solution
+length_ascii	Hash_Table/isomorphic_strings.c	6;"	d	file:
+length_version	String/compare_version_numbers.c	5;"	d	file:
+letterCombinations	String/letter_combination.cpp	/^    vector<string> letterCombinations(string digits) {$/;"	f	class:Solution
+letterCombinations_helper	String/letter_combination.cpp	/^    void letterCombinations_helper(vector<string> &ret, vector<string> &vec, string &tmp, string &copy_digits, string::size_type index) {$/;"	f	class:Solution	file:
+levelOrderBottom	Tree/binary_tree_level_order_traversal.cpp	/^    vector<vector<int>> levelOrderBottom(TreeNode *root) {$/;"	f	class:Solution
+longestCommonPrefix	String/longest_common_prefix.c	/^char* longestCommonPrefix(char** strs, int strsSize) {$/;"	f
+longestCommonPrefix	String/longest_common_prefix.cpp	/^    string longestCommonPrefix(vector<string> &strs) {$/;"	f	class:Solution
+longestPalindrome	String/longest_palindromic_substring.cpp	/^    string longestPalindrome(string s) {$/;"	f	class:Solution
+low_limit	DP/range_sum_query.cpp	/^    vector<int>::size_type low_limit, high_limit;   \/\/ [1:n]$/;"	m	class:NumArray	file:
+lowestCommonAncestor	Tree/lowest_common_ancestor.cpp	/^    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {$/;"	f	class:Solution
+main	Array/4_sum.cpp	/^int main() {$/;"	f
+main	Array/best_time_buy_sell_stock_2.cpp	/^int main() {$/;"	f
+main	Array/bigdata_add.cpp	/^int main() {$/;"	f
+main	Array/combination_sum_3.cpp	/^int main() {$/;"	f
+main	Array/container_with_most_water.cpp	/^int main() {$/;"	f
+main	Array/contains_duplicate.cpp	/^int main() {$/;"	f
+main	Array/contains_duplicate_II.c	/^int main(void){$/;"	f
+main	Array/majority_element.c	/^int main(void){$/;"	f
+main	Array/maximum_subarray.c	/^int main (void) {$/;"	f
+main	Array/merge_sorted_array.c	/^int main (void) {$/;"	f
+main	Array/minimum_size_subarray_sum.cpp	/^int main() {$/;"	f
+main	Array/missing_number.cpp	/^int main() {$/;"	f
+main	Array/move_zeroes.c	/^int main (void) {$/;"	f
+main	Array/next_perutation.cpp	/^int main() {$/;"	f
+main	Array/pascal_triangle.cpp	/^int main() {$/;"	f
+main	Array/pascal_triangle_2.cpp	/^int main() {$/;"	f
+main	Array/plus_one.c	/^int main(void) {$/;"	f
+main	Array/product_except_self.cpp	/^int main() {$/;"	f
+main	Array/remove_duplicates_from_sorted_array.c	/^int main (void) {$/;"	f
+main	Array/remove_element.c	/^int main(void) {$/;"	f
+main	Array/rotate_array.c	/^int main(void){$/;"	f
+main	Array/search_2d_matrix.cpp	/^int main() {$/;"	f
+main	Array/search_insert_position.cpp	/^int main() {$/;"	f
+main	Array/set_matrix_zeroes.cpp	/^int main() {$/;"	f
+main	Array/sort_colors.c	/^int main (void) {$/;"	f
+main	Array/spiral_matrix_2.cpp	/^int main() {$/;"	f
+main	Array/summary_ranges.c	/^int main(){$/;"	f
+main	Backtracking/combinations.cpp	/^int main() {$/;"	f
+main	Backtracking/gray_code.cpp	/^int main() {$/;"	f
+main	Backtracking/permutations.cpp	/^int main() {$/;"	f
+main	Bit_Manipulation/max_xor.cpp	/^int main() {$/;"	f
+main	Bit_Manipulation/maximum_product_of_word_lengths.cpp	/^int main() {$/;"	f
+main	Bit_Manipulation/numbers_of_1_bits.c	/^int main(void){$/;"	f
+main	Bit_Manipulation/reverse_bits.c	/^int main(void){$/;"	f
+main	DP/besttime_buy_sell_cooldown.cpp	/^int main() {$/;"	f
+main	DP/climbing_stairs.c	/^int main (void) {$/;"	f
+main	DP/counting_bits.cpp	/^int main() {$/;"	f
+main	DP/house_robber.cpp	/^int main() {$/;"	f
+main	DP/house_robber_2.cpp	/^int main() {$/;"	f
+main	DP/minimum_path_sum.cpp	/^int main() {$/;"	f
+main	DP/perfect_squares.cpp	/^int main() {$/;"	f
+main	DP/range_sum_query.cpp	/^int main() {$/;"	f
+main	DP/ugly_number.c	/^int main (void) {$/;"	f
+main	DP/unique_path_2.cpp	/^int main() {$/;"	f
+main	DP/unique_paths.cpp	/^int main() {$/;"	f
+main	Design/LRU_Cache.cpp	/^int main() {$/;"	f
+main	Design/binary_search_tree_iterator.cpp	/^int main() {$/;"	f
+main	Divide_and_Conquer/different_ways_to_add_parentheses.cpp	/^int main() {$/;"	f
+main	Divide_and_Conquer/search_2d_matrix_2.cpp	/^int main() {$/;"	f
+main	Hash_Table/bulls_and_cows.cpp	/^int main() {$/;"	f
+main	Hash_Table/count_primes.c	/^int main(void){$/;"	f
+main	Hash_Table/happy_number.c	/^int main(void){$/;"	f
+main	Hash_Table/intersection_of_two_arrays.cpp	/^int main() {$/;"	f
+main	Hash_Table/intersection_of_two_arrays_2.cpp	/^int main() {$/;"	f
+main	Hash_Table/isomorphic_strings.c	/^int main(void){$/;"	f
+main	Hash_Table/single_number_2.cpp	/^int main() {$/;"	f
+main	Hash_Table/word_pattern.cpp	/^int main () {$/;"	f
+main	Hash_Table/word_pattern_2.cpp	/^int main() {$/;"	f
+main	List/delete_node_linked_list.c	/^int main(void){$/;"	f
+main	List/insertion_sort_list.cpp	/^int main() {$/;"	f
+main	List/linked_list_cycle.cpp	/^int main() {$/;"	f
+main	List/merge_two_sorted_lists.c	/^int main (void) {$/;"	f
+main	List/odd_even_linked_list.cpp	/^int main () {$/;"	f
+main	List/palindrome_linked_list.c	/^int main(){$/;"	f
+main	List/print_list_tail_to_head.cpp	/^int main() {$/;"	f
+main	List/remove_duplicates_from_sorted_list.c	/^int main (void) {$/;"	f
+main	List/remove_linked_list_elements.c	/^int main(void){$/;"	f
+main	List/remove_nth_node_end_list.c	/^int main(void){$/;"	f
+main	List/remove_nth_node_end_list.cpp	/^int main() {$/;"	f
+main	List/reverse_linked_list.c	/^int main(void){$/;"	f
+main	List/sort_list.c	/^int main(void){$/;"	f
+main	List/swap_nodes_in_pairs.cpp	/^int main() {$/;"	f
+main	Math/bulb_switcher.cpp	/^int main() {$/;"	f
+main	Math/excel_sheet_column_number.c	/^int main(void){$/;"	f
+main	Math/excel_sheet_column_title.c	/^int main(void){$/;"	f
+main	Math/factorial_trailing_zeroes.c	/^int main(void){$/;"	f
+main	Math/is_power_of_three.cpp	/^int main() {$/;"	f
+main	Math/palindrome_number.c	/^int main(){$/;"	f
+main	Math/power_of_two.c	/^int main(void){$/;"	f
+main	Math/rectangle_area.c	/^int main(){$/;"	f
+main	Math/reverse_integer.c	/^int main(void){$/;"	f
+main	Other/binary_gray_code.cpp	/^int main() {$/;"	f
+main	Other/binary_search_tree.cpp	/^int main() {$/;"	f
+main	Other/find_in_esc_array.cpp	/^int main() {$/;"	f
+main	Other/first_bad_version.cpp	/^int main () {$/;"	f
+main	Other/prices_profit.cpp	/^int main() {$/;"	f
+main	Other/replace_space.cpp	/^int main() {$/;"	f
+main	Other/rotate_array_least_search.cpp	/^int main() {$/;"	f
+main	Other/search_for_coder.cpp	/^int main() {$/;"	f
+main	Other/visit.cpp	/^int main() {$/;"	f
+main	String/add_binary.c	/^int main (void) {$/;"	f
+main	String/basic_calculator_2_new.cpp	/^int main() {$/;"	f
+main	String/basic_calculator_2_old.cpp	/^int main() {$/;"	f
+main	String/compare_version_numbers.c	/^int main(void){$/;"	f
+main	String/count_and_say.cpp	/^int main() {$/;"	f
+main	String/decode_ways.cpp	/^int main() {$/;"	f
+main	String/generate_parentheses.cpp	/^int main() {$/;"	f
+main	String/group_anagrams.cpp	/^int main() {$/;"	f
+main	String/length_of_last_word.c	/^int main(void){$/;"	f
+main	String/length_of_last_word.cpp	/^int main() {$/;"	f
+main	String/letter_combination.cpp	/^int main() {$/;"	f
+main	String/longest_common_prefix.c	/^int main(void){$/;"	f
+main	String/longest_common_prefix.cpp	/^int main() {$/;"	f
+main	String/longest_palindromic_substring.cpp	/^int main() {$/;"	f
+main	String/longest_substring_atmost_two_distinct_characters.cpp	/^int main() {$/;"	f
+main	String/longest_substring_without_repeating_characters.cpp	/^int main() {$/;"	f
+main	String/longest_substring_without_repeating_characters_2.cpp	/^int main() {$/;"	f
+main	String/minimum_window_substring.cpp	/^int main() {$/;"	f
+main	String/multiply_strings.cpp	/^int main() {$/;"	f
+main	String/restore_ip_addresses.cpp	/^int main() {$/;"	f
+main	String/reverse_words_in_a_string.cpp	/^int main() {$/;"	f
+main	String/simplify_path.cpp	/^int main() {$/;"	f
+main	String/strStr.cpp	/^int main () {$/;"	f
+main	String/strStr_kmp.cpp	/^int main() {$/;"	f
+main	String/string_to_integer.c	/^int main (void) {$/;"	f
+main	String/valid_palindrome.cpp	/^int main() {$/;"	f
+main	String/valid_parentheses.cpp	/^int main () {$/;"	f
+main	String/zigzag_conversion.c	/^int main(void){$/;"	f
+main	Tree/balanced_binary_tree.c	/^int main (void) {$/;"	f
+main	Tree/binary_tree_inorder_traversal.cpp	/^int main() {$/;"	f
+main	Tree/binary_tree_level_order_traversal.cpp	/^int main () {$/;"	f
+main	Tree/binary_tree_preorder_traversal.cpp	/^int main() {$/;"	f
+main	Tree/construct_tree_postorder_inorder.cpp	/^int main() {$/;"	f
+main	Tree/construct_tree_preorder_inorder.cpp	/^int main() {$/;"	f
+main	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^int main() {$/;"	f
+main	Tree/lowest_common_ancestor.cpp	/^int main () {$/;"	f
+main	Tree/unique_binary_search_trees.cpp	/^int main() {$/;"	f
+main	Tree/unique_binary_search_trees_2.cpp	/^int main() {$/;"	f
+majorityElement	Array/majority_element.c	/^int majorityElement(int* nums, int numsSize) {$/;"	f
+make_happy	Hash_Table/happy_number.c	/^int make_happy(int y){$/;"	f
+max	Hash_Table/count_primes.c	6;"	d	file:
+max	Hash_Table/happy_number.c	5;"	d	file:
+max	Tree/balanced_binary_tree.c	13;"	d	file:
+maxArea	Array/container_with_most_water.cpp	/^    int maxArea(vector<int> &height) {$/;"	f	class:Solution
+maxDepth	Tree/max_depth_of_binary_tree.c	/^int maxDepth(struct TreeNode* root) {$/;"	f
+maxProduct	Bit_Manipulation/maximum_product_of_word_lengths.cpp	/^    int maxProduct(vector<string> &words) {$/;"	f	class:Solution
+maxProfit	Array/best_time_buy_sell_stock_2.cpp	/^    int maxProfit(vector<int> &prices) {$/;"	f	class:Solution
+maxProfit	DP/besttime_buy_sell_cooldown.cpp	/^    int maxProfit(vector<int> &prices) {$/;"	f	class:Solution
+maxSubArray	Array/maximum_subarray.c	/^int maxSubArray (int *nums, int numsSize) {$/;"	f
+maxXor	Bit_Manipulation/max_xor.cpp	/^    int maxXor(vector<int> &vec) {$/;"	f	class:Solution
+merge	Array/merge_sorted_array.c	/^void merge(int* nums1, int m, int* nums2, int n) {$/;"	f
+mergeTwoLists	List/merge_two_sorted_lists.c	/^struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {$/;"	f
+mergesort	List/sort_list.c	/^void mergesort(struct ListNode** headref) {$/;"	f
+min	DP/minimum_path_sum.cpp	/^    int min(int i, int j) { return i < j ? i : j; }$/;"	f	class:Solution
+min	Stack/min_stack.cpp	/^    std::vector<int> min;$/;"	m	class:MinStack	file:
+minDepth	Tree/minimum_depth_of_binary_tree.c	/^int minDepth(struct TreeNode* root){$/;"	f
+minNumberInRotateArray	Other/rotate_array_least_search.cpp	/^    int minNumberInRotateArray(vector<int> rotateArray) {$/;"	f	class:Solution
+minPathSum	DP/minimum_path_sum.cpp	/^    int minPathSum(vector<vector<int>> &grid) {$/;"	f	class:Solution
+minSubArrayLen	Array/minimum_size_subarray_sum.cpp	/^    int minSubArrayLen(int s, vector<int>& nums) {$/;"	f	class:Solution
+minWindow	String/minimum_window_substring.cpp	/^    string minWindow(string s, string t) {$/;"	f	class:Solution
+missingNumber	Array/missing_number.cpp	/^    int missingNumber(vector<int> &nums) {$/;"	f	class:Solution
+mod	Hash_Table/word_pattern_2.cpp	/^    static const int mod = 10007;$/;"	m	class:Solution	file:
+moveZeroes	Array/move_zeroes.c	/^void moveZeroes(int* nums, int numsSize) {$/;"	f
+multiply	String/multiply_strings.cpp	/^    string multiply(string num1, string num2) {$/;"	f	class:Solution
+myAtoi	String/string_to_integer.c	/^int myAtoi(char* str) {$/;"	f
+myFree	Other/binary_search_tree.cpp	/^void Tree::myFree(TreeNode *tree_node) {$/;"	f	class:Tree
+mySqrt	Math/sqrt.cpp	/^    int mySqrt(int x) {$/;"	f	class:Solution
+next	Design/binary_search_tree_iterator.cpp	/^    int next() {$/;"	f	class:BSTIterator
+next	Design/peeking_iterator.cpp	/^	int next() {$/;"	f	class:PeekingIterator
+next	List/delete_node_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/insertion_sort_list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	List/intersection_of_two_links.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/linked_list_cycle.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	List/merge_two_sorted_lists.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/odd_even_linked_list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	List/palindrome_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/print_list_tail_to_head.cpp	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/remove_duplicates_from_sorted_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/remove_linked_list_elements.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/remove_nth_node_end_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/remove_nth_node_end_list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	List/reverse_linked_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/sort_list.c	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	List/swap_nodes_in_pairs.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	Tree/populating_next_right_pointers.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:
+nextPermutation	Array/next_perutation.cpp	/^    void nextPermutation(vector<int>& nums) {$/;"	f	class:Solution
+numDecodings	String/decode_ways.cpp	/^    int numDecodings(string s) {$/;"	f	class:Solution
+numSquares	DP/perfect_squares.cpp	/^    int numSquares(int n) {$/;"	f	class:Solution_1
+numSquares	DP/perfect_squares.cpp	/^    int numSquares(int n) {$/;"	f	class:Solution_2
+numTrees	Tree/unique_binary_search_trees.cpp	/^    int numTrees(int n) {$/;"	f	class:Solution
+oddEvenList	List/odd_even_linked_list.cpp	/^    ListNode* oddEvenList(ListNode* head) {$/;"	f	class:Solution
+one_block	DP/range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
+parent	Other/binary_search_tree.cpp	/^    TreeNode *left, *right, *parent;$/;"	m	struct:TreeNode	file:
+partition	Divide_and_Conquer/kth_largest_element_in_array.cpp	/^    vector<int>::size_type partition(vector<int> &nums, vector<int>::size_type lo, vector<int>::size_type hi) {$/;"	f	class:Solution
+peek	Design/peeking_iterator.cpp	/^	int peek() {$/;"	f	class:PeekingIterator
+peek	Stack/implement_queue_using_stacks.cpp	/^    int peek(void) {$/;"	f	class:Queue
+permute	Backtracking/permutations.cpp	/^    vector<vector<int>> permute(vector<int>& nums) {$/;"	f	class:Solution
+permute_helper	Backtracking/permutations.cpp	/^    void permute_helper(vector<vector<int>> &ret, vector<int> nums, vector<int>::size_type lo, vector<int>::size_type hi) {$/;"	f	class:Solution
+plusOne	Array/plus_one.c	/^int* plusOne(int* digits, int digitsSize, int* returnSize) {$/;"	f
+pop	Stack/implement_queue_using_stacks.cpp	/^    void pop(void) {$/;"	f	class:Queue
+pop	Stack/implement_stacks_using_queue.cpp	/^    void pop() {$/;"	f	class:Stack
+pop	Stack/min_stack.cpp	/^    void pop() {$/;"	f	class:MinStack
+preorderTraversal	Tree/binary_tree_preorder_traversal.cpp	/^    vector<int> preorderTraversal(TreeNode *root) {$/;"	f	class:Solution
+preorderTraversal_helper	Tree/binary_tree_preorder_traversal.cpp	/^    void preorderTraversal_helper(TreeNode *root, vector<int> &result) {$/;"	f	class:Solution
+print	Array/4_sum.cpp	/^    void print(vector<vector<int>> &ret) {$/;"	f	class:Solution
+print	Array/4_sum.cpp	/^    void print(vector<vector<int>> &ret) {$/;"	f	class:Solution_Advance
+print	Array/next_perutation.cpp	/^void print(vector<int> &nums) {$/;"	f
+print	Array/search_2d_matrix.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
+print	Array/set_matrix_zeroes.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
+print	Backtracking/combinations.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
+print	Divide_and_Conquer/search_2d_matrix_2.cpp	/^void print(vector<vector<int>> &matrix) {$/;"	f
+print	Hash_Table/intersection_of_two_arrays.cpp	/^void print(vector<int> &vec) {$/;"	f
+print	Hash_Table/intersection_of_two_arrays_2.cpp	/^void print(vector<int> &ret) {$/;"	f
+print	List/print_list_tail_to_head.cpp	/^void print(vector<int> &vec) {$/;"	f
+print	Other/replace_space.cpp	/^void print(char *s) {$/;"	f
+print	Other/rotate_array_least_search.cpp	/^void print(vector<int> &vec) {$/;"	f
+print	String/letter_combination.cpp	/^void print(vector<string> &ret) {$/;"	f
+print	String/restore_ip_addresses.cpp	/^void print(vector<string> &ret) {$/;"	f
+printList	List/remove_nth_node_end_list.cpp	/^void printList(ListNode *head) {$/;"	f
+printListFromTailToHead	List/print_list_tail_to_head.cpp	/^    vector<int> printListFromTailToHead(struct ListNode* head) {$/;"	f	class:Solution
+printList_helper	List/print_list_tail_to_head.cpp	/^    void printList_helper(vector<int> &vec, struct ListNode *head) {$/;"	f	class:Solution
+productExceptSelf	Array/product_except_self.cpp	/^    vector<int> productExceptSelf(vector<int> &nums) {$/;"	f	class:Solution
+push	Stack/implement_queue_using_stacks.cpp	/^    void push(int x) {$/;"	f	class:Queue
+push	Stack/implement_stacks_using_queue.cpp	/^    void push(int x) {$/;"	f	class:Stack
+push	Stack/min_stack.cpp	/^    void push(int x) {$/;"	f	class:MinStack
+push	Tree/kth_smallest_element.cpp	/^    void push(vector<int> &v, TreeNode *root) {$/;"	f	class:Solution
+quickSort	Hash_Table/intersection_of_two_arrays.cpp	/^    void quickSort(vector<int> &vec) {$/;"	f	class:Solution	file:
+quickSort_helper	Hash_Table/intersection_of_two_arrays.cpp	/^    void quickSort_helper(vector<int> &vec, int lo, int hi) {$/;"	f	class:Solution	file:
+removeDuplicates	Array/remove_duplicates_from_sorted_array.c	/^int removeDuplicates (int *nums, int numSize) {$/;"	f
+removeDuplicates	Array/remove_duplicates_from_sorted_array_2.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution
+removeElement	Array/remove_element.c	/^int removeElement(int* nums, int numsSize, int val) {$/;"	f
+removeElements	List/remove_linked_list_elements.c	/^struct ListNode* removeElements(struct ListNode* head, int val) {$/;"	f
+removeNthFromEnd	List/remove_nth_node_end_list.c	/^struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {$/;"	f
+removeNthFromEnd	List/remove_nth_node_end_list.cpp	/^    ListNode *removeNthFromEnd(ListNode *head, int n) {$/;"	f	class:Solution
+replace	List/reverse_linked_list.c	/^void replace(struct ListNode* current){$/;"	f
+replaceSpace	Other/replace_space.cpp	/^    void replaceSpace(char *str,int length) {$/;"	f	class:Solution
+restoreIpAddresses	String/restore_ip_addresses.cpp	/^    vector<string> restoreIpAddresses(string s) {$/;"	f	class:Solution
+reverse	Math/reverse_integer.c	/^int reverse(int x) {$/;"	f
+reverse	String/reverse_words_in_a_string.cpp	/^    void reverse(string &s, int i, int j) {$/;"	f	class:Solution	file:
+reverseBits	Bit_Manipulation/reverse_bits.c	/^uint32_t reverseBits(uint32_t n) {$/;"	f
+reverseList	List/reverse_linked_list.c	/^struct ListNode* reverseList(struct ListNode* head) {$/;"	f
+reverseString	String/reverse_string.cpp	/^    string reverseString(string s) {$/;"	f	class:Solution
+reverseVowels	String/reverse_vowels_of_a_string.cpp	/^    string reverseVowels(string s) {$/;"	f	class:Solution
+reverseWords	String/reverse_words_in_a_string.cpp	/^    void reverseWords(string &s) {$/;"	f	class:Solution
+right	Design/binary_search_tree_iterator.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Other/binary_search_tree.cpp	/^    TreeNode *left, *right, *parent;$/;"	m	struct:TreeNode	file:
+right	Tree/balanced_binary_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/binary_tree_inorder_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/binary_tree_level_order_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/binary_tree_paths.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/binary_tree_preorder_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/binary_tree_right_side_view.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/construct_tree_postorder_inorder.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/construct_tree_preorder_inorder.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/has_subtree.cpp	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/invert_binary_tree.c	/^     struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/kth_smallest_element.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/lowest_common_ancestor.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/max_depth_of_binary_tree.c	/^	struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/minimum_depth_of_binary_tree.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/path_sum.c	/^    struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/populating_next_right_pointers.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:
+right	Tree/same_tree.c	/^	struct TreeNode *right;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	file:
+right	Tree/sum_root_to_leaf_numbers.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/symmetric_tree.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	Tree/unique_binary_search_trees_2.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+rightSideView	Tree/binary_tree_right_side_view.cpp	/^    vector<int> rightSideView(TreeNode* root) {$/;"	f	class:Solution
+rightSideView_helper	Tree/binary_tree_right_side_view.cpp	/^    void rightSideView_helper(vector<int> &ret, deque<TreeNode *> &dq, TreeNode *root) {$/;"	f	class:Solution
+rob	DP/house_robber.cpp	/^    int rob(vector<int> &nums) {$/;"	f	class:Solution
+rob	DP/house_robber_2.cpp	/^    int rob(vector<int>& nums) {$/;"	f	class:Solution
+root	Other/binary_search_tree.cpp	/^    TreeNode *root;$/;"	m	class:Tree	file:
+rotate	Array/rotate_array.c	/^void rotate(int* nums, int numsSize, int k) {$/;"	f
+rotate	Array/rotate_image.cpp	/^    void rotate(vector<vector<int>>& matrix) {$/;"	f	class:Solution
+run_p1	List/linked_list_cycle.cpp	/^    ListNode *run_p1(ListNode *start) {     \/\/ p1以速度1往前跑$/;"	f	class:Solution
+run_p2	List/linked_list_cycle.cpp	/^    ListNode *run_p2(ListNode *start) {     \/\/ p2以速度2往前跑$/;"	f	class:Solution
+scale	Math/excel_sheet_column_number.c	4;"	d	file:
+scale	Math/excel_sheet_column_title.c	5;"	d	file:
+searchHelper	Divide_and_Conquer/search_2d_matrix_2.cpp	/^    bool searchHelper(vector<vector<int>> &matrix, int target, int row_limit, int col_limit, int pos_row, int pos_col) {$/;"	f	class:Solution
+searchInsert	Array/search_insert_position.cpp	/^    int searchInsert(vector<int> &nums, int target) {$/;"	f	class:Solution
+searchInsert_helper	Array/search_insert_position.cpp	/^    vector<int>::size_type searchInsert_helper(vector<int> &nums, int target, vector<int>::size_type low_index, vector<int>::size_type high_index) {$/;"	f	class:Solution
+searchMatrix	Array/search_2d_matrix.cpp	/^    bool searchMatrix(vector<vector<int>> &matrix, int target) {$/;"	f	class:Solution
+searchMatrix	Divide_and_Conquer/search_2d_matrix_2.cpp	/^    bool searchMatrix(vector<vector<int>> &matrix, int target) {$/;"	f	class:Solution
+search_path_for	Tree/lowest_common_ancestor.cpp	/^    bool search_path_for(TreeNode *current_root, TreeNode *target, vector<TreeNode *> &target_path) {$/;"	f	class:Solution
+set	Design/LRU_Cache.cpp	/^    void set(int key, int value) {$/;"	f	class:LRUCache
+setZeroes	Array/set_matrix_zeroes.cpp	/^    void setZeroes(vector<vector<int>>& matrix) {$/;"	f	class:Solution
+simplifyPath	String/simplify_path.cpp	/^    string simplifyPath(string path) {$/;"	f	class:Solution
+singleNumber	Hash_Table/single_number.cpp	/^    int singleNumber(vector<int>& nums) {$/;"	f	class:Solution
+singleNumber	Hash_Table/single_number_2.cpp	/^    int singleNumber(vector<int> &nums) {$/;"	f	class:Solution
+singleNumber	Hash_Table/single_number_3.cpp	/^    vector<int> singleNumber(vector<int>& nums) {$/;"	f	class:Solution
+size	Other/binary_search_tree.cpp	/^    int size() { return size_helper(root); }$/;"	f	class:Tree
+size	Other/first_bad_version.cpp	/^const size_t size = 2;$/;"	v
+size_byte	Bit_Manipulation/reverse_bits.c	5;"	d	file:
+size_helper	Other/binary_search_tree.cpp	/^int Tree::size_helper(TreeNode *tree_node) {$/;"	f	class:Tree
+size_int	Math/palindrome_number.c	5;"	d	file:
+sortColors	Array/sort_colors.c	/^void sortColors(int* nums, int numsSize) {$/;"	f
+sortList	List/sort_list.c	/^struct ListNode* sortList(struct ListNode* head) {$/;"	f
+sortedArrayToBST	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *sortedArrayToBST(vector<int> &nums) {$/;"	f	class:Solution
+sortedArrayToBST_helper	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^    TreeNode *sortedArrayToBST_helper(vector<int> &nums, vector<int>::size_type low_index, vector<int>::size_type high_index) {$/;"	f	class:Solution
+sortedMerge	List/sort_list.c	/^struct ListNode *sortedMerge(struct ListNode *a,struct ListNode *b){$/;"	f
+stk	String/valid_parentheses.cpp	/^    stack<char> stk;$/;"	m	class:Solution	file:
+store_next	List/reverse_linked_list.c	/^int store_next;$/;"	v
+store_prev	List/reverse_linked_list.c	/^int store_prev;$/;"	v
+strStr	String/strStr.cpp	/^    int strStr(string haystack, string needle) {$/;"	f	class:Solution
+strStr	String/strStr_kmp.cpp	/^    int strStr(string haystack, string needle) {$/;"	f	class:Solution
+str_store	Array/bigdata_add.cpp	/^    const string str_store = "0123456789abcdefghijklmnopqrstuvwxyz";$/;"	m	class:Solution	file:
+sumNumbers	Tree/sum_root_to_leaf_numbers.cpp	/^    int sumNumbers(TreeNode* root) {$/;"	f	class:Solution
+sumRange	DP/range_sum_query.cpp	/^    int sumRange(int i, int j) {$/;"	f	class:NumArray
+sum_range	DP/range_sum_query.cpp	/^    int sum_range(vector<int> &nums, vector<int>::size_type low_range, vector<int>::size_type high_range) {$/;"	f	class:NumArray
+summaryRanges	Array/summary_ranges.c	/^char** summaryRanges(int* nums, int numsSize, int* returnSize) {$/;"	f
+swap	Array/next_perutation.cpp	/^    void swap(vector<int> &nums, int i, int j) {$/;"	f	class:Solution	file:
+swap	Backtracking/permutations.cpp	/^    vector<int> &swap(vector<int>& nums, vector<int>::size_type i, vector<int>::size_type j) {$/;"	f	class:Solution
+swap	Hash_Table/intersection_of_two_arrays.cpp	/^    void swap(vector<int> &vec, int i, int j) {$/;"	f	class:Solution	file:
+swap	String/reverse_string.cpp	/^    void swap(string &s, int i, int j) {$/;"	f	class:Solution
+swap	String/reverse_vowels_of_a_string.cpp	/^    void swap(string &s, int i, int j) {$/;"	f	class:Solution
+swap	String/reverse_words_in_a_string.cpp	/^    void swap(string &s, int i, int j) {$/;"	f	class:Solution	file:
+swapPairs	List/swap_nodes_in_pairs.cpp	/^    ListNode* swapPairs(ListNode* head) {$/;"	f	class:Solution
+ten_block	DP/range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
+test_solution	Array/4_sum.cpp	/^int test_solution(vector<int> &vec, int target) {$/;"	f
+test_solution_advance	Array/4_sum.cpp	/^int test_solution_advance(vector<int> &vec, int target) {$/;"	f
+thousand_block	DP/range_sum_query.cpp	/^    vector<int> thousand_block, hundred_block, ten_block, one_block;$/;"	m	class:NumArray	file:
+threeSum	Array/4_sum.cpp	/^    void threeSum(vector<int> &nums, int target, vector<int>::size_type lo,$/;"	f	class:Solution_Advance	file:
+titleToNumber	Math/excel_sheet_column_number.c	/^int titleToNumber(char* s) {$/;"	f
+top	Stack/implement_stacks_using_queue.cpp	/^    int top() {$/;"	f	class:Stack
+top	Stack/min_stack.cpp	/^    int top() {$/;"	f	class:MinStack
+touch	Design/LRU_Cache.cpp	/^    void touch(HIPII::iterator it) {$/;"	f	class:LRUCache	file:
+trailingZeroes	Math/factorial_trailing_zeroes.c	/^int trailingZeroes(int n) {$/;"	f
+twoSum	Array/4_sum.cpp	/^    void twoSum(vector<int> &nums, int target, vector<int>::size_type lo,$/;"	f	class:Solution_Advance	file:
+twoSum	Array/two_sum.cpp	/^    vector<int> twoSum(vector<int>& nums, int target) {$/;"	f	class:Solution
+type_mymap	Array/4_sum.cpp	/^    typedef unordered_multimap<int, pair<vector<int>::size_type, vector<int>::size_type>> type_mymap;$/;"	t	class:Solution	file:
+uniquePaths	DP/unique_paths.cpp	/^    int uniquePaths(int m, int n) {$/;"	f	class:Solution
+uniquePathsWithObstacles	DP/unique_path_2.cpp	/^    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {$/;"	f	class:Solution
+used	Design/LRU_Cache.cpp	/^    LI used;       \/\/ a list, the head of list is the LRU node$/;"	m	class:LRUCache	file:
+val	Design/binary_search_tree_iterator.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	List/delete_node_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/insertion_sort_list.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/intersection_of_two_links.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/linked_list_cycle.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/merge_two_sorted_lists.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/odd_even_linked_list.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/palindrome_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/print_list_tail_to_head.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/remove_duplicates_from_sorted_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/remove_linked_list_elements.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/remove_nth_node_end_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/remove_nth_node_end_list.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/reverse_linked_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/sort_list.c	/^    int val;$/;"	m	struct:ListNode	file:
+val	List/swap_nodes_in_pairs.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	Other/binary_search_tree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/balanced_binary_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/binary_tree_inorder_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/binary_tree_level_order_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/binary_tree_paths.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/binary_tree_preorder_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/binary_tree_right_side_view.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/construct_tree_postorder_inorder.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/construct_tree_preorder_inorder.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/convert_sortedarray_to_binarysearchtree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/has_subtree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/invert_binary_tree.c	/^     int val;$/;"	m	struct:TreeNode	file:
+val	Tree/kth_smallest_element.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/lowest_common_ancestor.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/max_depth_of_binary_tree.c	/^	int val;$/;"	m	struct:TreeNode	file:
+val	Tree/minimum_depth_of_binary_tree.c	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/path_sum.c	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/populating_next_right_pointers.cpp	/^    int val;$/;"	m	struct:TreeLinkNode	file:
+val	Tree/same_tree.c	/^	int val;$/;"	m	struct:TreeNode	file:
+val	Tree/sum_root_to_leaf_numbers.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/symmetric_tree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	Tree/unique_binary_search_trees_2.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+vec	Design/binary_search_tree_iterator.cpp	/^    vector<TreeNode *> vec;$/;"	m	class:BSTIterator	file:
+vec	Stack/min_stack.cpp	/^    std::vector<int> vec;$/;"	m	class:MinStack	file:
+versions	Other/first_bad_version.cpp	/^static bool versions[size] = {false, false};$/;"	v	file:
+wordPattern	Hash_Table/word_pattern.cpp	/^    bool wordPattern(string pattern, string str) {$/;"	f	class:Solution
+wordPattern	Hash_Table/word_pattern_2.cpp	/^    bool wordPattern(string pattern, string str) {$/;"	f	class:Solution
+zigzagLevelOrder	Tree/binary_tree_zigzag_level_order_traversal.cpp	/^    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {$/;"	f	class:Solution
+~Tree	Other/binary_search_tree.cpp	/^    ~Tree() { myFree(root); }$/;"	f	class:Tree
