@@ -13,9 +13,12 @@ Math | 数学
 Stack | 堆栈
 String | 字符串
 Tree | 二叉树
+Graph | 图
 Other | 其它
 
 
 # lintcode
 * Tree
   * 二叉树的序列化和反序列化：`serialize_and_deserialize.cpp`
+* Graph
+  * 单词搜索：word_search.cpp
