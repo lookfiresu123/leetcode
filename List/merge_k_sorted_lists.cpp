@@ -9,7 +9,8 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-class Solution {
+// recursive merge
+class Solution_1 {
 public:
     ListNode *mergeKLists(vector<ListNode *> &lists) {
         if (lists.empty())
@@ -32,5 +33,33 @@ private:
             l2->next = mergeTwoLists(l1, l2->next);
             return l2;
         }
+    }
+};
+
+// using priority queue
+class Solution_2 {
+public:
+    // N elements -> NlgN
+    ListNode *mergeKLists(vector<ListNode *> &lists) {
+        auto cmp = [](ListNode *x, ListNode *y){ return x->val > y->val; };
+        priority_queue<ListNode *, vector<ListNode *>, decltype(cmp)> q(cmp);
+        for (auto list : lists) {
+            auto cur = list;
+            while (cur) {
+                q.push(cur);
+                cur = cur->next;
+            }
+        }
+        ListNode *node = new ListNode(0);
+        ListNode *cur = node;
+        while (!q.empty()) {
+            cur->next = q.top();
+            q.pop();
+            cur = cur->next;
+        }
+        cur->next = NULL;
+        auto ret = node->next;
+        delete node;
+        return ret;
     }
 };
