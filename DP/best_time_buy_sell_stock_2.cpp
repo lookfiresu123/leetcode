@@ -26,7 +26,7 @@ public:
         int ret = 0;
         int sz = prices.size();
         for (int i = 1 ; i < sz ; ++i)
-            ret += max(prices[i] - prices[i-1], 0);
+            ret += max(prices[i] - prices[i-1], 0);     // 若明天股价上涨则持续买入，利润增加为prices[i]-prices[i-1]；若明天股价下跌则赶紧卖出，利润增加0
         return ret;
     }
 };
