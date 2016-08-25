@@ -13,7 +13,7 @@ using namespace std;
 // Note: The solution set must not contain duplicate quadruplets.
 class Solution {
 public:
-    typedef unordered_multimap<int, pair<vector<int>::size_type, vector<int>::size_type>> type_mymap;
+    typedef unordered_multimap<int, pair<vector<int>::size_type, vector<int>::size_type>> type_mymap;  // {sum, {i, j}} that nums[i]+nums[j] = sum
 
     vector<vector<int>> fourSum(vector<int> &nums, int target) {
         vector<vector<int>> ret;
@@ -27,8 +27,9 @@ public:
                 int sum = nums[i]+ nums[j];
                 pair<type_mymap::iterator, type_mymap::iterator> pit = mymap.equal_range(target - sum);
                 for (type_mymap::iterator it = pit.first ; it != pit.second ; ++it) {
-                    if (it->second.first == i || it->second.second == i || it->second.first == j || it->second.second == j)
+                    if (it->second.first == i || it->second.second == i || it->second.first == j || it->second.second == j) // 忽略重复的数
                         continue;
+                    // 构造四元组，并将其导入路径集中
                     vector<int> tmp;
                     tmp.push_back(nums[i]);
                     tmp.push_back(nums[j]);
@@ -40,27 +41,12 @@ public:
             }
         }
 
-        // reduce
+        // 去掉重复的数
         for (auto &m1 : ret)
             sort(m1.begin(), m1.end());
+        auto it = unique(ret.begin(), ret.end());
+        ret.erase(it, ret.end());
 
-        print(ret);
-        vector<vector<int>> tmp;
-        for (auto m1 : ret) {
-            bool flag = true;
-            for (auto m2 : tmp) {
-                if (m1[0] == m2[0] && m1[1] == m2[1] && m1[2] == m2[2] && m1[3] == m2[3]) {
-                    flag = false;
-                    break;
-                }
-            }
-            if (flag)
-                tmp.push_back(m1);
-        }
-        ret = tmp;
-
-        cout << "-----------------------" << endl;
-        print(ret);
         return ret;
     }
 
@@ -208,6 +194,6 @@ int test_solution_advance(vector<int> &vec, int target) {
 int main() {
     vector<int> vec = {5,5,3,5,1,-5,1,-2};
     int target = 4;
-    test_solution_advance(vec, target);
+    test_solution(vec, target);
     return 0;
 }

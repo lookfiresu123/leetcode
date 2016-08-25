@@ -10,7 +10,8 @@ DP | 动态规划
 Hash_Table | 哈希表
 List | 链表
 Math | 数学
-Stack | 堆栈
+Stack | 栈
+Heap | 堆
 String | 字符串
 Tree | 二叉树
 Graph | 图
