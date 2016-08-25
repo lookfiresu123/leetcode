@@ -4,9 +4,15 @@
 
 using namespace std;
 
+// Find all possible combinations of k numbers that add up to a number n,
+// given that only numbers from 1 to 9 can be used and each combination should
+// be a unique set of numbers.
 class Solution {
 public:
-    // @n : 还有多少步
+    // @ret：存储所有路径的容器
+    // @temp：存储某条路径的容器
+    // @n : 当前的目标和target
+    // @k：还需走多少步
     void combinationSum3_helper(vector<vector<int>> &ret, vector<int> temp, int n, int k) {
         if (temp.size() == static_cast<vector<int>::size_type>(k) && n == 0) {
             ret.push_back(temp);

@@ -10,10 +10,14 @@ using namespace std;
 class Exception_1 {};
 class Exception_2 {};
 
+// 大数相加算法
 class Solution {
 private:
     const string str_store = "0123456789abcdefghijklmnopqrstuvwxyz";
 public:
+    // @str1：加数
+    // @str2：被加数
+    // @ary：进制
     string big_add(string &str1, string &str2, int ary) {
         const string str_pool = str_store;
         string ret;
