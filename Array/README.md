@@ -6,11 +6,11 @@
 4_sum.cpp | 在一个数组中找到所有和为给定数的四元组
 bigdata_add.cpp | 大数相加算法
 combination_sum_3.cpp | 在[1:9]范围内的数中找到所有和为n的k元组
-container_with_most_water.cpp |
-contains_duplicate.cpp |
-contains_duplicate_II.c |
-find_minimum_in_rotated_sorted_array_2.cpp |
-find_minimun_rotated_sorted_array.cpp |
+container_with_most_water.cpp | 找到拥有最大装水量的容器
+contains_duplicate.cpp | 判断一个数组中是否有重复的数
+contains_duplicate_II.cpp | 判断一个数组中是否有距离不超过K的重复的数
+find_minimun_rotated_sorted_array.cpp | 在一个旋转有序不重复的数组中查找最小值
+find_minimum_in_rotated_sorted_array_2.cpp | 在一个旋转有序有重复的数组中查找最小值
 find_peak_element.cpp |
 game_of_life.cpp |
 majority_element.cpp |

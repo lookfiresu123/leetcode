@@ -12,7 +12,7 @@ public:
     // @ret：存储所有路径的容器
     // @temp：存储某条路径的容器
     // @n : 当前的目标和target
-    // @k：还需走多少步
+    // @k：总共要走几步
     void combinationSum3_helper(vector<vector<int>> &ret, vector<int> temp, int n, int k) {
         if (temp.size() == static_cast<vector<int>::size_type>(k) && n == 0) {
             ret.push_back(temp);
