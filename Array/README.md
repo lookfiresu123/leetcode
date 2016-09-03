@@ -15,7 +15,7 @@ find_peak_element.cpp | 在一个无序数组中找到极大值点的索引
 game_of_life.cpp | 细胞状态问题
 majority_element.cpp | 在一个数组中找到出现次数大于n/2次的元素
 majority_element_2.cpp | 在一个数组中找到所有出现次数大于n/2次的元素
-max_of_sliding_window.cpp |
+max_of_sliding_window.cpp | 滑动窗口最大值
 maximum_subarray.c |
 merge_sorted_array.c |
 minimum_size_subarray_sum.cpp |
