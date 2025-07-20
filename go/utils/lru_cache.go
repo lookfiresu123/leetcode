@@ -55,12 +55,9 @@ func (c *LRUCache) Put(key string, value interface{}) {
 	c.mutex.Lock()
 	defer c.mutex.Unlock()
 
-	if _, ok := c.cache[key]; ok {
-		c.cache[key] = &node{
-			key:   key,
-			value: value,
-		}
-		c.moveToHead(c.cache[key])
+	if n, ok := c.cache[key]; ok {
+		n.value = value // Update value in place
+		c.moveToHead(n)
 		return
 	}
 
@@ -74,20 +71,21 @@ func (c *LRUCache) Put(key string, value interface{}) {
 	}
 
 	// 如果缓存未满，添加新节点
-	c.cache[key] = &node{
+	newNode := &node{
 		key:   key,
 		value: value,
 	}
+	c.cache[key] = newNode
 
 	if c.head == nil {
-		c.head = c.cache[key]
+		c.head = newNode
 	}
 
 	if c.tail == nil {
-		c.tail = c.cache[key]
+		c.tail = newNode
 	}
 
-	c.moveToHead(c.cache[key])
+	c.moveToHead(newNode)
 }
 
 // getTailNode 获取尾部节点
@@ -103,26 +101,41 @@ func (c *LRUCache) removeTail() {
 	if c.tail == nil {
 		return
 	}
-
+	if c.tail.prev == nil {
+		c.tail = nil
+		return
+	}
 	c.tail.prev.next = nil
 	c.tail = c.tail.prev
 }
 
 // moveToHead 将节点移动到头部
 func (c *LRUCache) moveToHead(n *node) {
+	if c.head == nil || n == nil {
+		c.head = n
+		c.tail = n
+		return
+	}
 	if c.head == n {
 		return
 	}
-
+	// Remove n from its current position
+	if n.prev != nil {
+		n.prev.next = n.next
+	}
+	if n.next != nil {
+		n.next.prev = n.prev
+	}
 	if c.tail == n {
 		c.tail = n.prev
 	}
-
+	// Insert n at head
 	n.prev = nil
 	n.next = c.head
-	c.head.prev = n
+	if c.head != nil {
+		c.head.prev = n
+	}
 	c.head = n
-
 	if c.tail == nil {
 		c.tail = n
 	}
